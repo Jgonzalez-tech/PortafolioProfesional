@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <main className="grid min-h-svh place-items-center bg-slate-900 px-6 text-center font-sans text-slate-50">
+    <main className="grid min-h-svh place-items-center bg-grid px-6 text-center font-sans text-slate-50">
       <div className="flex flex-col items-center">
         <img
           src={`${import.meta.env.BASE_URL}logo.svg`}
