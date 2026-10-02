@@ -2,7 +2,11 @@ export default function Hero() {
   return (
     <main className="grid min-h-svh place-items-center bg-slate-900 px-6 text-center font-sans text-slate-50">
       <div className="flex flex-col items-center">
-        <img src="/logo.svg" alt="Logotipo JG" className="w-32" />
+        <img
+          src={`${import.meta.env.BASE_URL}logo.svg`}
+          alt="Logotipo JG"
+          className="w-32"
+        />
 
         <h1 className="mt-6 font-display text-[clamp(2.25rem,6vw,3.75rem)] font-bold leading-tight">
           Javier González
@@ -17,5 +21,5 @@ export default function Hero() {
         </span>
       </div>
     </main>
-  )
+  );
 }
