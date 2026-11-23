@@ -24,13 +24,16 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: proyecto/package-lock.json
 
       - run: npm ci
+        working-directory: proyecto
       - run: npm run build
+        working-directory: proyecto
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: proyecto/dist
 
   deploy:
     needs: build

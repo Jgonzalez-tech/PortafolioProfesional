@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#0f172a"/>
+  <rect x="60" y="70" width="520" height="260" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="60" y="70" width="140" height="260" rx="16" fill="#0f172a"/>
+  <rect x="84" y="100" width="90" height="10" rx="5" fill="#22d3ee"/>
+  <rect x="84" y="130" width="70" height="8" rx="4" fill="#475569"/>
+  <rect x="84" y="154" width="80" height="8" rx="4" fill="#475569"/>
+  <rect x="84" y="178" width="60" height="8" rx="4" fill="#475569"/>
+  <rect x="228" y="100" width="330" height="14" rx="7" fill="#e2e8f0" fill-opacity="0.85"/>
+  <rect x="228" y="134" width="150" height="44" rx="10" fill="#22d3ee" fill-opacity="0.2" stroke="#22d3ee"/>
+  <rect x="392" y="134" width="150" height="44" rx="10" fill="#0f172a" stroke="#334155"/>
+  <rect x="228" y="200" width="314" height="8" rx="4" fill="#475569"/>
+  <rect x="228" y="222" width="270" height="8" rx="4" fill="#475569"/>
+  <rect x="228" y="252" width="100" height="40" rx="10" fill="#22d3ee" fill-opacity="0.3"/>
+  <text x="60" y="368" fill="#64748b" font-family="Arial, sans-serif" font-size="16">Proyecto 2 · Panel de reservas freelance</text>
+</svg>

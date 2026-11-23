@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Javier González | Desarrollo Frontend Freelance",
+    "description": "Portafolio freelance de desarrollo frontend: landing pages, interfaces React y mejoras web para clientes."
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido",
+    "available": "Disponible para nuevos proyectos",
+    "close": "Cerrar",
+    "downloadCv": "Descargar perfil freelance (PDF)",
+    "projectCount": "proyectos destacados",
+    "clientWork": "trabajos para clientes"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "cta": "Hablemos de tu proyecto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "role": "Desarrollador Frontend Freelance",
+    "headline": "Interfaces que hacen crecer tu proyecto.",
+    "subheadline": "Diseño y desarrollo web a medida para clientes que buscan claridad, velocidad y resultados. Trabajo de forma remota, con entregables claros y comunicación constante.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Solicitar presupuesto",
+    "scroll": "Desplazarse para explorar",
+    "imageAlt": "Ilustración de una persona trabajando en un proyecto web freelance"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Trabajo contigo, no solo para ti",
+    "body": "Soy Javier, desarrollador frontend freelance. Me especializo en convertir ideas en interfaces rápidas, accesibles y fáciles de mantener. Cada proyecto empieza con una conversación, un alcance claro y un plan de entregas.",
+    "body2": "Colaboro con clientes de forma remota, en trabajos puntuales o por fases: descubrimiento, diseño de interfaz, implementación y ajustes finales.",
+    "skillsTitle": "Herramientas que uso",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Vite", "Accesibilidad web", "Git"],
+    "quote": "Entregas claras, plazos cumplidos y código que se puede mantener.",
+    "quoteAuthor": "Mi forma de trabajar freelance",
+    "imageAlt": "Ilustración de un espacio de trabajo freelance"
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Lo que puedo hacer por tu proyecto",
+    "subtitle": "Servicios freelance enfocados en resultados concretos.",
+    "items": [
+      {
+        "id": "landing",
+        "icon": "code",
+        "title": "Landing pages",
+        "description": "Páginas de una sola sección, rápidas y optimizadas para convertir visitas en contactos."
+      },
+      {
+        "id": "interfaces",
+        "icon": "palette",
+        "title": "Interfaces React",
+        "description": "Componentes y pantallas en React + TypeScript, con diseño consistente y accesible."
+      },
+      {
+        "id": "improve",
+        "icon": "wrench",
+        "title": "Mejoras y mantenimiento",
+        "description": "Revisión de rendimiento, corrección de errores y mejoras progresivas en sitios existentes."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "Trabajos freelance recientes",
+    "subtitle": "Una selección de proyectos realizados para clientes y colaboraciones.",
+    "filters": {
+      "all": "Todos",
+      "web": "Web",
+      "ui": "Interfaces",
+      "maintenance": "Mejoras"
+    },
+    "client": "Cliente / tipo",
+    "deliverable": "Entregable",
+    "technologies": "Tecnologías",
+    "viewDetails": "Ver detalles",
+    "empty": "No hay proyectos en esta categoría.",
+    "items": [
+      {
+        "id": "p1",
+        "title": "Landing para estudio creativo",
+        "description": "Sitio de una página para presentar servicios y captar solicitudes de presupuesto.",
+        "category": "web",
+        "client": "Cliente freelance · Estudio creativo",
+        "deliverable": "Landing responsive con formulario de contacto",
+        "technologies": ["React", "TypeScript", "Tailwind CSS"],
+        "image": "projects/project-1.svg",
+        "details": "Diseño y desarrollo desde cero, con enfoque móvil, animaciones sutiles y formulario validado. Entregado en una semana con revisiones incluidas."
+      },
+      {
+        "id": "p2",
+        "title": "Panel de reservas para cliente",
+        "description": "Interfaz para gestionar citas y consultar disponibilidad desde el navegador.",
+        "category": "ui",
+        "client": "Cliente freelance · Servicios locales",
+        "deliverable": "Panel React con filtros y estados vacíos",
+        "technologies": ["React", "TypeScript", "Tailwind CSS"],
+        "image": "projects/project-2.svg",
+        "details": "Construí los componentes de la interfaz, el sistema de filtros y los estados de carga. La entrega incluyó documentación de uso para el cliente."
+      },
+      {
+        "id": "p3",
+        "title": "Mejora de rendimiento web",
+        "description": "Optimización de carga y accesibilidad en un sitio existente.",
+        "category": "maintenance",
+        "client": "Cliente freelance · Pequeño comercio",
+        "deliverable": "Auditoría, correcciones y seguimiento",
+        "technologies": ["Lighthouse", "Vite", "CSS"],
+        "image": "projects/project-3.svg",
+        "details": "Revisé imágenes, fuentes y scripts, corregí problemas de contraste y dejé recomendaciones priorizadas para futuras mejoras."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Tienes un proyecto en mente?",
+    "subtitle": "Cuéntame qué necesitas y te respondo con una propuesta clara.",
+    "whatsapp": "Consultar disponibilidad por WhatsApp",
+    "whatsappMessage": "Hola Javier, quisiera consultar disponibilidad para un proyecto freelance.",
+    "emailLabel": "Correo",
+    "socialTitle": "También puedes encontrarme en",
+    "cvNote": "Perfil en PDF con servicios, proyectos y forma de trabajo."
+  },
+  "form": {
+    "title": "Solicitar presupuesto",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "projectType": "Tipo de proyecto",
+    "projectTypePlaceholder": "Selecciona una opción",
+    "projectTypes": ["Landing page", "Interfaz React", "Mejoras en sitio existente", "Otro"],
+    "budget": "Presupuesto aproximado",
+    "budgetPlaceholder": "Selecciona un rango",
+    "budgets": ["Menos de $500", "$500 - $1,500", "Más de $1,500", "Aún por definir"],
+    "message": "Cuéntame tu proyecto",
+    "messagePlaceholder": "Objetivo, alcance y fecha aproximada...",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "No se pudo enviar el mensaje. Intenta de nuevo o escríbeme por WhatsApp.",
+    "notConfigured": "El formulario aún no está configurado. Por ahora, escríbeme por WhatsApp.",
+    "errors": {
+      "name": "Escribe tu nombre (mínimo 2 caracteres).",
+      "email": "Escribe un correo válido.",
+      "projectType": "Selecciona un tipo de proyecto.",
+      "budget": "Selecciona un presupuesto aproximado.",
+      "message": "Escribe al menos 10 caracteres."
+    }
+  },
+  "footer": {
+    "tagline": "Desarrollo frontend freelance · Proyectos web con propósito.",
+    "rights": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba"
+  },
+  "aria": {
+    "logo": "Logotipo JG",
+    "languageSwitch": "Cambiar idioma",
+    "scrollTop": "Volver al inicio de la página",
+    "whatsapp": "Abrir chat de WhatsApp",
+    "projectDialog": "Detalles del proyecto",
+    "social": "Enlace a"
+  }
+}

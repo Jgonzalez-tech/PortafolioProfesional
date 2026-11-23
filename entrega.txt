@@ -1,0 +1,15 @@
+ENTREGA - PROYECTO PORTAFOLIO WEB FREELANCE
+
+URL del portafolio publicado: TODO - pegar aquí la URL de GitHub Pages o Vercel
+Dirección del repositorio: https://github.com/Jgonzalez-tech/PortafolioProfesional.git
+
+Rama de entrega: feature/portafolio-freelance-i18n
+Código fuente: carpeta /proyecto
+Imagen promocional: /promo.png
+
+Notas:
+- Reemplazar los placeholders de datos en proyecto/src/data/site.ts.
+- Reemplazar proyecto/public/images/freelance-web.svg con la imagen web freelance del curso.
+- Reemplazar proyecto/public/cv/CV-Freelance-Javier-Gonzalez.pdf con el perfil freelance real.
+- Configurar EmailJS en proyecto/.env (ver proyecto/.env.example).
+- Generar la versión final de promo.png con IA antes de la exposición.

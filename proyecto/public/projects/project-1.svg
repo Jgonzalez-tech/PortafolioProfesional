@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#g1)"/>
+  <circle cx="530" cy="90" r="110" fill="#22d3ee" fill-opacity="0.1"/>
+  <rect x="80" y="90" width="320" height="220" rx="14" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="80" y="90" width="320" height="34" rx="14" fill="#1e293b"/>
+  <rect x="104" y="146" width="130" height="12" rx="6" fill="#22d3ee"/>
+  <rect x="104" y="172" width="240" height="8" rx="4" fill="#475569"/>
+  <rect x="104" y="192" width="200" height="8" rx="4" fill="#475569"/>
+  <rect x="104" y="230" width="100" height="48" rx="10" fill="#22d3ee" fill-opacity="0.25"/>
+  <rect x="440" y="250" width="120" height="70" rx="14" fill="#22d3ee" fill-opacity="0.85"/>
+  <text x="80" y="360" fill="#64748b" font-family="Arial, sans-serif" font-size="16">Proyecto 1 · Landing freelance</text>
+</svg>

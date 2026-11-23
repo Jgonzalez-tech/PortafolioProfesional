@@ -1,75 +1,65 @@
-# React + TypeScript + Vite
+# Portafolio Web Freelance — Javier González
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio **100% freelance** (sin perfil laboral ni mixto) desarrollado desde cero con React 19, TypeScript, Vite 8 y Tailwind CSS 4. Incluye 5 secciones de contenido, galería interactiva, animaciones, i18n ES/EN y despliegue en GitHub Pages.
 
-Currently, two official plugins are available:
+> El código fuente de la aplicación está en la carpeta [`proyecto/`](./proyecto).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Secciones
 
-## React Compiler
+1. **Inicio / Hero** — propuesta de valor freelance, disponibilidad y CTA a proyectos/contacto.
+2. **Sobre mí** — perfil freelance, herramientas y forma de trabajo (sin empleadores ni antigüedad).
+3. **Servicios** — landing pages, interfaces React y mejoras/mantenimiento.
+4. **Proyectos** — galería con filtros, tarjetas y modal de detalle (título, cliente, entregable y tecnologías).
+5. **Contacto** — formulario de presupuesto, WhatsApp, enlaces digitales y descarga del perfil PDF.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+El encabezado y el pie de página no cuentan como secciones.
 
-## Expanding the ESLint configuration
+## Cumplimiento de la consigna
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Requisito | Dónde |
+|---|---|
+| Responsividad y accesibilidad | Layout mobile-first, nav colapsable, skip link, ARIA, `prefers-reduced-motion` |
+| Paleta 60-30-10 | `proyecto/src/index.css` (`base`, `surface`, `accent`) |
+| Favicon e ilustraciones SVG | `proyecto/public/favicon.svg`, `logo.svg`, `src/components/illustrations/` |
+| Galería interactiva | `src/components/Projects.tsx` |
+| Transiciones | `src/components/Reveal.tsx` + animaciones CSS |
+| Animación web JSON | `src/animations/scroll-cue.json` (Lottie) |
+| Formulario programado | React Hook Form + Zod + EmailJS en `src/components/Contact.tsx` |
+| WhatsApp | `src/components/WhatsAppChat.tsx` |
+| Scrolltop | `src/components/ScrollTop.tsx` |
+| Descarga de CV freelance | `proyecto/public/cv/CV-Freelance-Javier-Gonzalez.pdf` |
+| ES ↔ EN | `src/i18n.ts` + `src/locales/{es,en}/translation.json` + switch en el header |
+| 2 espacios digitales | GitHub y LinkedIn en `src/data/site.ts` |
+| Enlace remoto | `.github/workflows/deploy.yml` (GitHub Pages) |
+| Promo | `promo.png` en la raíz |
+| Entrega | `entrega.txt` en la raíz |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Arranque local
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd proyecto
+npm install
+cp .env.example .env   # completa tus claves de EmailJS
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Build y lint:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run build
+npm run lint
 ```
+
+## Placeholders pendientes
+
+Antes de publicar, reemplaza:
+
+- `proyecto/src/data/site.ts`: correo, WhatsApp, GitHub, LinkedIn.
+- `proyecto/public/images/freelance-web.svg`: imagen web freelance creada en el curso.
+- `proyecto/public/cv/CV-Freelance-Javier-Gonzalez.pdf`: perfil freelance real.
+- `proyecto/public/projects/*.svg`: capturas reales de los proyectos.
+- `proyecto/.env`: credenciales de EmailJS.
+- `promo.png`: imagen promocional definitiva generada con IA.
+- `entrega.txt`: URL final del sitio publicado.
+
+El formulario no simula envíos: si EmailJS no está configurado, muestra un mensaje claro y deriva al WhatsApp.
