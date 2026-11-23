@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Javier González | Frontend Developer",
+    "description": "Job-seeking portfolio of Javier González, frontend developer. Projects, experience and contact details."
+  },
+  "skip": "Skip to main content",
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "menu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "language": "Language",
+    "cv": "Download CV"
+  },
+  "common": {
+    "downloadCv": "Download CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "available": "Open to work"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Javier González",
+    "role": "Frontend Developer",
+    "description": "I'm looking for a role where I can contribute clean code, accessibility and attention to detail in every interface.",
+    "status": "Available to join a team",
+    "primaryCta": "View projects",
+    "secondaryCta": "Download CV",
+    "scroll": "Scroll to explore",
+    "imageAlt": "Professional illustration of a workstation"
+  },
+  "about": {
+    "label": "About me",
+    "title": "Professional profile",
+    "subtitle": "I build interfaces that work as well as they look.",
+    "paragraphs": [
+      "I'm a frontend developer with experience in React, TypeScript and modern CSS. I care about accessible, maintainable and measurable products.",
+      "I work with attention to detail, clear communication and a results-oriented mindset within cross-functional teams."
+    ],
+    "skillsTitle": "Core skills",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Tailwind CSS",
+      "Web accessibility",
+      "Git"
+    ]
+  },
+  "experience": {
+    "label": "Career",
+    "title": "Experience and education",
+    "subtitle": "A path focused on building digital products.",
+    "items": [
+      {
+        "role": "Frontend Developer",
+        "company": "Technology company (to complete)",
+        "period": "2023 – Present",
+        "description": "Build and maintain React interfaces, collaborate with design and backend teams, and improve accessibility and performance.",
+        "tags": ["React", "TypeScript", "Accessibility"]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Digital studio (to complete)",
+        "period": "2021 – 2023",
+        "description": "Built responsive pages, integrated APIs and took part in code reviews within small teams.",
+        "tags": ["JavaScript", "CSS", "Git"]
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Degree in Software Engineering (to complete)",
+        "school": "University (to complete)",
+        "period": "2017 – 2021"
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Selected work",
+    "subtitle": "Projects built in professional and continuous-learning contexts.",
+    "filtersLabel": "Filter projects",
+    "filters": {
+      "all": "All",
+      "web": "Web apps",
+      "ui": "Interfaces"
+    },
+    "items": [
+      {
+        "id": "panel-analitico",
+        "title": "Metrics analytics dashboard",
+        "description": "Dashboard for visualizing key indicators with filters, accessible tables and a responsive layout.",
+        "category": "web",
+        "tech": ["React", "TypeScript", "Tailwind CSS"]
+      },
+      {
+        "id": "sistema-diseno",
+        "title": "Component design system",
+        "description": "Reusable component library with documentation, focus states and dark theme support.",
+        "category": "ui",
+        "tech": ["React", "Storybook", "Figma"]
+      },
+      {
+        "id": "landing-corporativa",
+        "title": "Responsive corporate site",
+        "description": "Presentation page optimized for speed, SEO and readability on mobile devices.",
+        "category": "web",
+        "tech": ["Vite", "Tailwind CSS", "JavaScript"]
+      }
+    ],
+    "open": "View details of",
+    "close": "Close details",
+    "detailsTitle": "Project details",
+    "techTitle": "Technologies used",
+    "empty": "No projects in this category."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk about opportunities",
+    "subtitle": "If you're looking for a frontend developer for your team, get in touch.",
+    "formTitle": "Send me a message",
+    "directTitle": "Direct contact"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent. Thanks for getting in touch.",
+    "error": "The message could not be sent. Please try again.",
+    "mailFallback": "Your email client will open to complete the message.",
+    "validation": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "subject": "Please enter a subject.",
+      "message": "Please write a message of at least 10 characters."
+    }
+  },
+  "whatsapp": {
+    "label": "Open WhatsApp chat about job opportunities",
+    "message": "Hi Javier, I have a job opportunity I'd like to discuss with you."
+  },
+  "scrolltop": {
+    "label": "Back to top of the page"
+  },
+  "footer": {
+    "intro": "Job-seeking portfolio of Javier González.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "location": "Spain · Remote / on-site"
+  }
+}

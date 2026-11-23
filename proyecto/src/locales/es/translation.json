@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Javier González | Desarrollador Frontend",
+    "description": "Portafolio laboral de Javier González, desarrollador frontend en búsqueda de empleo. Proyectos, experiencia y forma de contacto."
+  },
+  "skip": "Saltar al contenido principal",
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "menu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación",
+    "language": "Idioma",
+    "cv": "Descargar CV"
+  },
+  "common": {
+    "downloadCv": "Descargar CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Correo electrónico",
+    "available": "En búsqueda de empleo"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Javier González",
+    "role": "Desarrollador Frontend",
+    "description": "Busco una oportunidad laboral donde aportar código limpio, accesibilidad y atención al detalle en cada interfaz.",
+    "status": "Disponible para incorporarme",
+    "primaryCta": "Ver proyectos",
+    "secondaryCta": "Descargar CV",
+    "scroll": "Desliza para explorar",
+    "imageAlt": "Ilustración profesional de escritorio de trabajo"
+  },
+  "about": {
+    "label": "Sobre mí",
+    "title": "Perfil profesional",
+    "subtitle": "Desarrollo interfaces que funcionan tan bien como se ven.",
+    "paragraphs": [
+      "Soy desarrollador frontend con experiencia en React, TypeScript y CSS moderno. Me interesa construir productos accesibles, mantenibles y medibles.",
+      "Trabajo con atención al detalle, comunicación clara y orientación a resultados dentro de equipos multidisciplinares."
+    ],
+    "skillsTitle": "Competencias principales",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Tailwind CSS",
+      "Accesibilidad web",
+      "Git"
+    ]
+  },
+  "experience": {
+    "label": "Trayectoria",
+    "title": "Experiencia y formación",
+    "subtitle": "Un recorrido enfocado en el desarrollo de productos digitales.",
+    "items": [
+      {
+        "role": "Desarrollador Frontend",
+        "company": "Empresa de tecnología (por completar)",
+        "period": "2023 – Actualidad",
+        "description": "Desarrollo y mantenimiento de interfaces React, colaboración con diseño y backend, y mejora de accesibilidad y rendimiento.",
+        "tags": ["React", "TypeScript", "Accesibilidad"]
+      },
+      {
+        "role": "Desarrollador Web Junior",
+        "company": "Estudio digital (por completar)",
+        "period": "2021 – 2023",
+        "description": "Construcción de páginas responsive, integración de APIs y revisión de código en equipos pequeños.",
+        "tags": ["JavaScript", "CSS", "Git"]
+      }
+    ],
+    "educationTitle": "Formación",
+    "education": [
+      {
+        "title": "Grado en Ingeniería de Software (por completar)",
+        "school": "Universidad (por completar)",
+        "period": "2017 – 2021"
+      }
+    ]
+  },
+  "projects": {
+    "label": "Proyectos",
+    "title": "Trabajos seleccionados",
+    "subtitle": "Proyectos desarrollados en contextos laborales y de formación continua.",
+    "filtersLabel": "Filtrar proyectos",
+    "filters": {
+      "all": "Todos",
+      "web": "Aplicaciones web",
+      "ui": "Interfaces"
+    },
+    "items": [
+      {
+        "id": "panel-analitico",
+        "title": "Panel analítico de métricas",
+        "description": "Dashboard para visualizar indicadores clave con filtros, tablas accesibles y diseño responsive.",
+        "category": "web",
+        "tech": ["React", "TypeScript", "Tailwind CSS"]
+      },
+      {
+        "id": "sistema-diseno",
+        "title": "Sistema de diseño de componentes",
+        "description": "Biblioteca de componentes reutilizables con documentación, estados de foco y soporte de tema oscuro.",
+        "category": "ui",
+        "tech": ["React", "Storybook", "Figma"]
+      },
+      {
+        "id": "landing-corporativa",
+        "title": "Sitio corporativo responsive",
+        "description": "Página de presentación optimizada para velocidad, SEO y lectura en dispositivos móviles.",
+        "category": "web",
+        "tech": ["Vite", "Tailwind CSS", "JavaScript"]
+      }
+    ],
+    "open": "Ver detalle de",
+    "close": "Cerrar detalle",
+    "detailsTitle": "Detalles del proyecto",
+    "techTitle": "Tecnologías aplicadas",
+    "empty": "No hay proyectos en esta categoría."
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos de oportunidades",
+    "subtitle": "Si buscas un desarrollador frontend para tu equipo, escríbeme y conversamos.",
+    "formTitle": "Envíame un mensaje",
+    "directTitle": "Contacto directo"
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Mensaje enviado. Gracias por contactarme.",
+    "error": "No se pudo enviar el mensaje. Inténtalo de nuevo.",
+    "mailFallback": "Se abrirá tu cliente de correo para completar el envío.",
+    "validation": {
+      "name": "Escribe tu nombre.",
+      "email": "Escribe un correo electrónico válido.",
+      "subject": "Escribe un asunto.",
+      "message": "Escribe un mensaje de al menos 10 caracteres."
+    }
+  },
+  "whatsapp": {
+    "label": "Abrir chat de WhatsApp para oportunidades laborales",
+    "message": "Hola Javier, tengo una oportunidad laboral que quiero comentarte."
+  },
+  "scrolltop": {
+    "label": "Volver al inicio de la página"
+  },
+  "footer": {
+    "intro": "Portafolio laboral de Javier González.",
+    "rights": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba",
+    "location": "España · Remoto / presencial"
+  }
+}

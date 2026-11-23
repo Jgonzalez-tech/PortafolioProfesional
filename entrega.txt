@@ -1,0 +1,14 @@
+ENTREGA - PROYECTO PORTAFOLIO WEB INTERACTIVO
+
+URL del portafolio publicado: TODO
+Dirección del repositorio: https://github.com/Jgonzalez-tech/PortafolioProfesional.git
+Rama de trabajo: fixes
+Carpeta del proyecto: proyecto/
+
+CHECKLIST PENDIENTE
+- Reemplazar datos de contacto, experiencia y enlaces en proyecto/src/data/site.ts y locales.
+- Sustituir proyecto/public/cv/CV-Javier-Gonzalez.pdf por el currículum real.
+- Sustituir proyecto/public/images/imagen-web-curso.svg por la imagen web creada durante el curso.
+- Generar la imagen promocional definitiva como promo.png (placeholder actual).
+- Configurar EmailJS copiando .env.example a .env con las claves reales.
+- Publicar y pegar la URL definitiva en este archivo para Moodle.

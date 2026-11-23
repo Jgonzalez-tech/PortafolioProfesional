@@ -1,0 +1,20 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vista previa del panel analítico">
+  <rect width="800" height="500" fill="#0F172A"/>
+  <rect x="40" y="36" width="720" height="428" rx="16" fill="#1E293B"/>
+  <rect x="40" y="36" width="720" height="52" rx="16" fill="#334155"/>
+  <circle cx="70" cy="62" r="6" fill="#22D3EE"/>
+  <rect x="92" y="56" width="150" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="64" y="120" width="210" height="120" rx="12" fill="#0F172A"/>
+  <rect x="294" y="120" width="210" height="120" rx="12" fill="#0F172A"/>
+  <rect x="524" y="120" width="210" height="120" rx="12" fill="#0F172A"/>
+  <rect x="84" y="146" width="90" height="10" rx="5" fill="#22D3EE"/>
+  <rect x="314" y="146" width="90" height="10" rx="5" fill="#22D3EE"/>
+  <rect x="544" y="146" width="90" height="10" rx="5" fill="#22D3EE"/>
+  <rect x="84" y="180" width="150" height="18" rx="9" fill="#334155"/>
+  <rect x="314" y="180" width="150" height="18" rx="9" fill="#334155"/>
+  <rect x="544" y="180" width="150" height="18" rx="9" fill="#334155"/>
+  <rect x="64" y="268" width="670" height="164" rx="12" fill="#0F172A"/>
+  <rect x="84" y="292" width="120" height="10" rx="5" fill="#22D3EE" opacity="0.8"/>
+  <path d="M84 400L164 360L244 376L324 330L404 348L484 306L564 322L644 288L724 304" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M84 400H724" stroke="#334155" stroke-width="2"/>
+</svg>
