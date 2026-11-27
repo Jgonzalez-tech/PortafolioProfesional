@@ -33,6 +33,7 @@ export default function Projects() {
   const [filter, setFilter] = useState<Filter>('all')
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const dialogRef = useRef<HTMLDialogElement>(null)
+  const sectionRef = useRef<HTMLElement>(null)
   const reducedMotion = useReducedMotion()
 
   const visibleProjects = useMemo(
@@ -48,7 +49,7 @@ export default function Projects() {
         ? []
         : [
             Autoplay({
-              delay: 4500,
+              delay: 3500,
               stopOnInteraction: false,
               stopOnMouseEnter: true,
               stopOnFocusIn: true,
@@ -68,7 +69,7 @@ export default function Projects() {
         ? []
         : [
             Autoplay({
-              delay: 3500,
+              delay: 2800,
               stopOnInteraction: false,
               stopOnMouseEnter: true,
               stopOnFocusIn: true,
@@ -146,6 +147,23 @@ export default function Projects() {
     else autoplay.stop()
   }, [galleryApi, selectedId])
 
+  useEffect(() => {
+    const section = sectionRef.current
+    if (!section || !emblaApi || selectedId) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return
+        const autoplay = emblaApi.plugins()?.autoplay as { reset: () => void } | undefined
+        autoplay?.reset()
+      },
+      { threshold: 0.25 },
+    )
+
+    observer.observe(section)
+    return () => observer.disconnect()
+  }, [emblaApi, selectedId])
+
   const openProject = (id: string) => {
     setSelectedId(id)
     dialogRef.current?.showModal()
@@ -157,7 +175,7 @@ export default function Projects() {
     'inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-accent hover:text-accent-text disabled:cursor-not-allowed disabled:opacity-40'
 
   return (
-    <section id="projects" className="border-y border-line bg-surface/30">
+    <section id="projects" ref={sectionRef} className="border-y border-line bg-surface/30">
       <div className="section-shell">
         <Reveal>
           <p className="eyebrow">{t('projects.eyebrow')}</p>

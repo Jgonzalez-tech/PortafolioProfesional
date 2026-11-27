@@ -53,31 +53,31 @@
   "services": {
     "eyebrow": "Services",
     "title": "What I can do for your project",
-    "subtitle": "Freelance services focused on concrete results.",
+    "subtitle": "Services focused on concrete results.",
     "items": [
+      {
+        "id": "architecture",
+        "icon": "architecture",
+        "title": "Software architecture",
+        "description": "I design the structure of complex systems: well-separated modules and justified technical decisions, so your product can grow without becoming difficult to maintain."
+      },
       {
         "id": "backend",
         "icon": "code",
         "title": "Backend & APIs",
-        "description": "REST services and APIs with Java/Spring Boot, Node.js and TypeScript: secure, scalable and ready to integrate."
+        "description": "I build tailored, secure, scalable REST services and APIs ready to integrate."
       },
       {
         "id": "data",
         "icon": "wrench",
         "title": "Databases",
-        "description": "Relational modelling, migrations and query optimisation so the data supports the product."
+        "description": "Relational and non-relational modelling, migrations and query optimisation so your product stays fast and stable as your data grows."
       },
       {
         "id": "fullstack",
         "icon": "palette",
         "title": "Fullstack projects",
-        "description": "From database to interface: backend/frontend coordination with React and Angular when the project needs it."
-      },
-      {
-        "id": "architecture",
-        "icon": "architecture",
-        "title": "Software architecture",
-        "description": "I design the architecture of large systems: modules, clear boundaries and technical decisions so the product can grow without losing maintainability."
+        "description": "From database to interface, coordinating backend and frontend with React or Angular depending on what you need."
       }
     ]
   },
@@ -147,14 +147,14 @@
       },
       {
         "id": "p4",
-        "title": "Reporting service in Rust",
+        "title": "Operational reporting platform: Rust + React",
         "description": "High-performance backend service for generating operational reports and metrics.",
         "category": "backend",
         "client": "Freelance client · Operations",
-        "deliverable": "Rust service + SQL queries",
-        "technologies": ["Rust", "SQL", "Docker"],
+        "deliverable": "Rust service, SQL queries, React interface, Docker image",
+        "technologies": ["Rust", "SQL", "React", "Docker"],
         "images": ["projects/project-4-1.svg", "projects/project-4-2.svg", "projects/project-4-3.svg"],
-        "details": "I implemented the service in Rust, modelled the SQL queries and prepared it to run in containers. The delivery included input contracts and usage examples."
+        "details": "I implemented the service in Rust, built the React interface, modelled the SQL queries and prepared it to run in containers."
       }
     ]
   },
@@ -166,7 +166,7 @@
     "whatsappMessage": "Hi Javier, I'd like to check your availability for a freelance project.",
     "emailLabel": "Email",
     "socialTitle": "You can also find me on",
-    "cvNote": "PDF profile with services, stack and freelance projects."
+    "cvNote": "PDF profile"
   },
   "form": {
     "title": "Request a quote",

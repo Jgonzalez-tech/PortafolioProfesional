@@ -53,31 +53,31 @@
   "services": {
     "eyebrow": "Servicios",
     "title": "Lo que puedo hacer por tu proyecto",
-    "subtitle": "Servicios freelance enfocados en resultados concretos.",
+    "subtitle": "Servicios enfocados en resultados concretos.",
     "items": [
+      {
+        "id": "architecture",
+        "icon": "architecture",
+        "title": "Arquitectura de software",
+        "description": "Diseño la estructura de sistemas complejos: módulos bien separados y decisiones técnicas justificadas, para que tu producto crezca sin volverse difícil de mantener."
+      },
       {
         "id": "backend",
         "icon": "code",
         "title": "Backend y APIs",
-        "description": "Servicios y APIs REST con Java/Spring Boot, Node.js y TypeScript: seguros, escalables y listos para integrar."
+        "description": "Desarrollo servicios y APIs REST a la medida, seguros, escalables y listos para integrar."
       },
       {
         "id": "data",
         "icon": "wrench",
         "title": "Bases de datos",
-        "description": "Modelado relacional, migraciones y optimización de consultas para que los datos soporten al producto."
+        "description": "Modelado relacional/no relacional, migraciones y optimización de consultas para que tu producto sea rápido y estable a medida que los datos crecen."
       },
       {
         "id": "fullstack",
         "icon": "palette",
         "title": "Proyectos fullstack",
-        "description": "De la base de datos a la interfaz: coordinación backend/frontend con React y Angular cuando el proyecto lo necesita."
-      },
-      {
-        "id": "architecture",
-        "icon": "architecture",
-        "title": "Arquitectura de software",
-        "description": "Diseño la arquitectura de sistemas grandes: módulos, límites claros y decisiones técnicas para que el producto crezca sin perder mantenibilidad."
+        "description": "De la base de datos a la interfaz, coordinando backend y frontend con React o Angular según lo que necesites."
       }
     ]
   },
@@ -147,14 +147,14 @@
       },
       {
         "id": "p4",
-        "title": "Servicio de reportes en Rust",
+        "title": "Plataforma de reportes operativos: Rust + React",
         "description": "Servicio backend de alta performance para generar reportes y métricas de operación.",
         "category": "backend",
         "client": "Cliente freelance · Operaciones",
-        "deliverable": "Servicio Rust + consultas SQL",
-        "technologies": ["Rust", "SQL", "Docker"],
+        "deliverable": "Servicio Rust, consultas SQL, interfaz React, imagen Docker",
+        "technologies": ["Rust", "SQL", "React", "Docker"],
         "images": ["projects/project-4-1.svg", "projects/project-4-2.svg", "projects/project-4-3.svg"],
-        "details": "Implementé el servicio con Rust, modelé las consultas SQL y preparé su ejecución en contenedores. La entrega incluyó los contratos de entrada y ejemplos de uso."
+        "details": "Implementé el servicio con Rust, interfaz en React, modelé las consultas SQL y preparé su ejecución en contenedores."
       }
     ]
   },
@@ -166,7 +166,7 @@
     "whatsappMessage": "Hola Javier, quisiera consultar disponibilidad para un proyecto freelance.",
     "emailLabel": "Correo",
     "socialTitle": "También puedes encontrarme en",
-    "cvNote": "Perfil en PDF con servicios, stack y proyectos freelance."
+    "cvNote": "Perfil en PDF"
   },
   "form": {
     "title": "Solicitar presupuesto",

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from 'embla-carousel-react'
 import { useTranslation } from 'react-i18next'
@@ -40,7 +40,7 @@ export default function Services() {
         ? []
         : [
             Autoplay({
-              delay: 3800,
+              delay: 3000,
               stopOnInteraction: false,
               stopOnMouseEnter: true,
               stopOnFocusIn: true,
@@ -49,13 +49,32 @@ export default function Services() {
     [reducedMotion],
   )
 
-  const [emblaRef] = useEmblaCarousel(
+  const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: services.length > 1, align: 'start' as const },
     plugins,
   )
 
+  const sectionRef = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    const section = sectionRef.current
+    if (!section || !emblaApi) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return
+        const autoplay = emblaApi.plugins()?.autoplay as { reset: () => void } | undefined
+        autoplay?.reset()
+      },
+      { threshold: 0.25 },
+    )
+
+    observer.observe(section)
+    return () => observer.disconnect()
+  }, [emblaApi])
+
   return (
-    <section id="services" className="bg-canvas">
+    <section id="services" ref={sectionRef} className="bg-canvas">
       <div className="section-shell">
         <Reveal>
           <p className="eyebrow">{t('services.eyebrow')}</p>
