@@ -187,7 +187,6 @@
     "sending": "Sending...",
     "success": "Message sent! I'll get back to you soon.",
     "error": "The message couldn't be sent. Try again or message me on WhatsApp.",
-    "notConfigured": "The form isn't configured yet. For now, please message me on WhatsApp.",
     "errors": {
       "name": "Please enter your name (at least 2 characters).",
       "email": "Please enter a valid email address.",

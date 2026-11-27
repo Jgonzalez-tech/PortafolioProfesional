@@ -187,7 +187,6 @@
     "sending": "Enviando...",
     "success": "¡Mensaje enviado! Te responderé pronto.",
     "error": "No se pudo enviar el mensaje. Intenta de nuevo o escríbeme por WhatsApp.",
-    "notConfigured": "El formulario aún no está configurado. Por ahora, escríbeme por WhatsApp.",
     "errors": {
       "name": "Escribe tu nombre (mínimo 2 caracteres).",
       "email": "Escribe un correo válido.",

@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react'
-import emailjs from '@emailjs/browser'
 import { useForm } from 'react-hook-form'
 import { useTranslation } from 'react-i18next'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -17,7 +16,7 @@ type FormValues = {
   message: string
 }
 
-type SubmitStatus = 'idle' | 'success' | 'error' | 'notConfigured'
+type SubmitStatus = 'idle' | 'success' | 'error'
 
 const inputClass =
   'mt-2 w-full rounded-xl border border-line bg-canvas px-4 py-3 text-sm text-ink placeholder:text-muted focus:border-accent focus:outline-none'
@@ -54,28 +53,38 @@ export default function Contact() {
   })
 
   const onSubmit = async (values: FormValues) => {
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-
-    if (!serviceId || !templateId || !publicKey) {
-      setStatus('notConfigured')
-      return
-    }
-
     try {
-      await emailjs.send(
-        serviceId,
-        templateId,
-        {
-          from_name: values.name,
-          reply_to: values.email,
-          project_type: values.projectType,
-          budget: values.budget,
-          message: values.message,
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
         },
-        { publicKey },
-      )
+        body: JSON.stringify({
+          access_key: site.web3FormsAccessKey,
+          from_name: values.name,
+          replyto: values.email,
+          subject: `Nueva solicitud · ${values.name} · ${values.projectType}`,
+          botcheck: '',
+          Nombre: values.name,
+          Correo: values.email,
+          'Tipo de proyecto': values.projectType,
+          Presupuesto: values.budget,
+          Idioma: i18n.resolvedLanguage?.toLowerCase().startsWith('en') ? 'EN' : 'ES',
+          Fecha: new Intl.DateTimeFormat('es-CR', {
+            dateStyle: 'medium',
+            timeStyle: 'short',
+          }).format(new Date()),
+          Mensaje: values.message,
+        }),
+      })
+
+      const data = (await response.json()) as { success?: boolean; message?: string }
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.message ?? 'Web3Forms request failed')
+      }
+
       setStatus('success')
       reset()
     } catch {
@@ -285,7 +294,7 @@ export default function Contact() {
 
               {status !== 'idle' && (
                 <p
-                  role={status === 'error' || status === 'notConfigured' ? 'alert' : 'status'}
+                  role={status === 'error' ? 'alert' : 'status'}
                   className={`text-sm ${status === 'success' ? 'text-accent-text' : 'text-warning'}`}
                 >
                   {t(`form.${status}`)}
