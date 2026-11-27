@@ -46,7 +46,7 @@
     "body": "Soy Javier González, Ingeniero de Software especializado en backend y bases de datos. Disfruto convertir problemas complejos en soluciones funcionales y bien estructuradas, trabajando de forma remota con clientes.",
     "body2": "Me dedico a diseñar sistemas sólidos, seguros y eficientes, siempre pensando en quien los usa. Creo en la calidad, en seguir aprendiendo, en asumir responsabilidad y en ser honesto. Mi trabajo también abarca la arquitectura: dar forma a sistemas grandes para que sean fáciles de mantener y crecer.",
     "skillsTitle": "Stack principal",
-    "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "Git"],
+    "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "R2", "Git"],
     "quote": "Entregables claros, plazos cumplidos y sistemas que se pueden mantener.",
     "imageAlt": "Ilustración de un espacio de trabajo freelance"
   },

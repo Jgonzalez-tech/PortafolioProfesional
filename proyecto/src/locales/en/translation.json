@@ -46,7 +46,7 @@
     "body": "I'm Javier González, a software engineer specialised in backend and databases. I enjoy turning complex problems into functional, well-structured solutions while working remotely with clients.",
     "body2": "I focus on designing solid, secure and efficient systems, always thinking about the people who use them. I believe in quality, in continuous learning, in taking responsibility and in being honest. My work also covers architecture: shaping large systems so they are easy to maintain and grow.",
     "skillsTitle": "Core stack",
-    "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "Git"],
+    "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "R2", "Git"],
     "quote": "Clear deliverables, deadlines met and systems that can be maintained.",
     "imageAlt": "Illustration of a freelance workspace"
   },

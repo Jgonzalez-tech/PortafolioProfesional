@@ -11,7 +11,7 @@ Portafolio **100% freelance** (sin perfil laboral ni mixto) desarrollado desde c
 ## Secciones
 
 1. **Inicio / Hero** — propuesta de valor freelance, disponibilidad y CTA a proyectos/contacto.
-2. **Sobre mí** — perfil freelance, stack (Java, Spring Boot, Node.js, TypeScript, C#/.NET, SQL, React, Angular, Rust, Tauri, Docker) y forma de trabajo.
+2. **Sobre mí** — perfil freelance, stack (Java, Spring Boot, Node.js, TypeScript, C#/.NET, SQL, React, Angular, Rust, Tauri, Docker, R2) y forma de trabajo.
 3. **Servicios** — carrusel automático con backend y APIs, bases de datos, proyectos fullstack y arquitectura de software para sistemas grandes.
 4. **Proyectos** — carrusel automático con 5 proyectos, filtros, flechas/puntos y modal centrado con galería de fotos y detalle (cliente/tipo, entregable y tecnologías).
 5. **Contacto** — formulario de presupuesto, WhatsApp, enlaces digitales y descarga del perfil PDF.

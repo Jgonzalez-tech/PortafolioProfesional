@@ -46,7 +46,7 @@ export default function Hero() {
 
           <div className="mt-5 flex flex-wrap gap-4 border-t border-line pt-3 lg:mt-8 lg:gap-8 lg:pt-6">
             <div>
-              <p className="font-display text-2xl font-bold text-accent-text">03</p>
+              <p className="font-display text-2xl font-bold text-accent-text">04</p>
               <p className="text-[10px] uppercase tracking-widest text-muted lg:text-xs">
                 {t('common.projectCount')}
               </p>
