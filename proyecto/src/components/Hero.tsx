@@ -32,28 +32,28 @@ export default function Hero() {
           </p>
 
           <div className="mt-4 flex flex-wrap gap-3 lg:mt-8">
-            <a href="#projects" className="btn-primary px-5 py-2.5 text-sm">
+            <a href="#projects" className="btn-primary px-4 py-2 text-xs lg:px-5 lg:py-2.5 lg:text-sm">
               {t('hero.ctaProjects')}
               <ArrowRightIcon className="h-4 w-4" />
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-ink transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent-text"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-line px-4 py-2 text-xs font-medium text-ink transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent-text lg:px-5 lg:py-2.5 lg:text-sm"
             >
               {t('hero.ctaContact')}
             </a>
           </div>
 
-          <div className="mt-5 flex flex-wrap gap-8 border-t border-line pt-3 lg:mt-8 lg:pt-6">
+          <div className="mt-5 flex flex-wrap gap-4 border-t border-line pt-3 lg:mt-8 lg:gap-8 lg:pt-6">
             <div>
               <p className="font-display text-2xl font-bold text-accent-text">03</p>
-              <p className="text-xs uppercase tracking-widest text-muted">
+              <p className="text-[10px] uppercase tracking-widest text-muted lg:text-xs">
                 {t('common.projectCount')}
               </p>
             </div>
             <div>
               <p className="font-display text-2xl font-bold text-accent-text">100%</p>
-              <p className="text-xs uppercase tracking-widest text-muted">
+              <p className="text-[10px] uppercase tracking-widest text-muted lg:text-xs">
                 {t('common.clientWork')}
               </p>
             </div>
@@ -61,13 +61,13 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="mx-auto w-full max-w-sm lg:max-w-md">
+          <div className="mx-auto w-full max-w-md lg:max-w-lg">
             <img
               src={`${import.meta.env.BASE_URL}images/hero-fullstack.svg`}
               alt={t('hero.imageAlt')}
               className="w-full rounded-2xl drop-shadow-2xl"
             />
-            <div className="mx-auto mt-4 flex w-fit items-center justify-center gap-2 rounded-full border border-line bg-surface/90 px-3 py-1.5 text-xs text-ink">
+            <div className="mx-auto mt-4 flex w-fit items-center justify-center gap-2 rounded-full border border-line bg-surface/90 px-4 py-2 text-sm text-ink">
               <span className="h-2 w-2 animate-pulse rounded-full bg-accent" />
               {site.shortName}
             </div>
