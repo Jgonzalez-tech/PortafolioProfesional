@@ -12,36 +12,39 @@ export default function Hero() {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   return (
-    <section id="home" className="bg-grid relative overflow-hidden">
-      <div className="section-shell grid items-center gap-14 lg:grid-cols-2 lg:gap-10">
+    <section
+      id="home"
+      className="bg-grid relative flex min-h-[calc(100svh-4.8rem)] items-center overflow-hidden"
+    >
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-5 px-6 pb-[5.5rem] pt-5 md:grid-cols-2 md:gap-6 lg:gap-10">
         <Reveal>
           <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-xs font-semibold text-accent-text">
             <span className="h-2 w-2 animate-pulse rounded-full bg-accent" />
             {t('common.available')}
           </span>
 
-          <p className="eyebrow mt-8 text-accent-text">{t('hero.role')}</p>
-          <h1 className="mt-3 max-w-2xl font-display text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.08] tracking-tight text-ink">
+          <p className="eyebrow mt-4 text-accent-text lg:mt-6">{t('hero.role')}</p>
+          <h1 className="mt-2 max-w-2xl font-display text-[clamp(1.6rem,3vw,2.25rem)] font-bold leading-[1.08] tracking-tight text-ink [@media(min-height:800px)]:text-[clamp(2.5rem,6vw,4.5rem)] lg:mt-3">
             {t('hero.headline')}
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
+          <p className="mt-3 max-w-xl text-[13px] leading-relaxed text-muted lg:mt-6 [@media(min-height:800px)]:text-lg">
             {t('hero.subheadline')}
           </p>
 
-          <div className="mt-9 flex flex-wrap gap-3">
-            <a href="#projects" className="btn-primary">
+          <div className="mt-4 flex flex-wrap gap-3 lg:mt-8">
+            <a href="#projects" className="btn-primary px-5 py-2.5 text-sm">
               {t('hero.ctaProjects')}
               <ArrowRightIcon className="h-4 w-4" />
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-line px-6 py-3 font-medium text-ink transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent-text"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-ink transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent-text"
             >
               {t('hero.ctaContact')}
             </a>
           </div>
 
-          <div className="mt-12 flex flex-wrap gap-8 border-t border-line pt-6">
+          <div className="mt-5 flex flex-wrap gap-8 border-t border-line pt-3 lg:mt-8 lg:pt-6">
             <div>
               <p className="font-display text-2xl font-bold text-accent-text">03</p>
               <p className="text-xs uppercase tracking-widest text-muted">
@@ -58,13 +61,13 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="mx-auto w-full max-w-lg">
+          <div className="mx-auto w-full max-w-sm lg:max-w-md">
             <img
-              src={`${import.meta.env.BASE_URL}images/freelance-web.svg`}
+              src={`${import.meta.env.BASE_URL}images/hero-fullstack.svg`}
               alt={t('hero.imageAlt')}
               className="w-full rounded-2xl drop-shadow-2xl"
             />
-            <div className="mt-4 flex items-center justify-center gap-2 rounded-full border border-line bg-surface/90 px-4 py-2 text-xs text-ink">
+            <div className="mx-auto mt-4 flex w-fit items-center justify-center gap-2 rounded-full border border-line bg-surface/90 px-3 py-1.5 text-xs text-ink">
               <span className="h-2 w-2 animate-pulse rounded-full bg-accent" />
               {site.shortName}
             </div>
