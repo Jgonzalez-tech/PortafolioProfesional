@@ -88,8 +88,8 @@
     "filters": {
       "all": "Todos",
       "backend": "Backend",
-      "data": "Datos",
-      "fullstack": "Fullstack"
+      "fullstack": "Fullstack",
+      "desktop": "Escritorio"
     },
     "client": "Cliente / tipo",
     "deliverable": "Entregable",
@@ -119,23 +119,23 @@
       },
       {
         "id": "p2",
-        "title": "Modelado y optimización de base de datos",
-        "description": "Rediseño de esquema relacional y consultas para un sistema de reservas.",
-        "category": "data",
-        "client": "Cliente freelance · Servicios locales",
-        "deliverable": "Esquema, migraciones y recomendaciones",
-        "technologies": ["PostgreSQL", "SQL", "Node.js"],
+        "title": "Cinema Appify: sistema web de gestión de cine",
+        "description": "Sistema web de gestión de cine: cartelera, funciones, salas, reservas y venta de boletos.",
+        "category": "fullstack",
+        "client": "Cliente freelance · Plataforma web",
+        "deliverable": "Aplicación web completa (backend, frontend y base de datos)",
+        "technologies": ["Node.js", "MySQL", "Angular", "TypeScript"],
         "images": ["projects/project-2-1.svg", "projects/project-2-2.svg", "projects/project-2-3.svg"],
-        "details": "Normalicé tablas, añadí índices y revisé consultas críticas. El resultado fue menos latencia y un modelo más fácil de mantener."
+        "details": "Desarrollé de punta a punta Cinema Appify, un sistema web para la gestión de cine: cartelera, funciones, salas, reservas y venta de boletos."
       },
       {
         "id": "p3",
-        "title": "Implementación fullstack de panel web",
-        "description": "Integración de una API Node/TypeScript con una interfaz React para operaciones diarias.",
-        "category": "fullstack",
+        "title": "TribuTico: app de escritorio para declaración de impuestos",
+        "description": "Aplicación de escritorio que simplifica las declaraciones de impuestos.",
+        "category": "desktop",
         "client": "Cliente freelance · Negocio digital",
-        "deliverable": "API + interfaz + despliegue",
-        "technologies": ["Node.js", "TypeScript", "React", "SQL"],
+        "deliverable": "Aplicación de escritorio completa (núcleo en Rust e interfaz en React)",
+        "technologies": ["Tauri", "Rust", "React", "Vite", "TypeScript", "IA"],
         "images": [
           "projects/project-3-1.svg",
           "projects/project-3-2.svg",
@@ -143,7 +143,7 @@
           "projects/project-3-4.svg",
           "projects/project-3-5.svg"
         ],
-        "details": "Construí el servicio, el modelo de datos y la interfaz. Coordiné contratos y estados de carga para que el flujo funcionara de extremo a extremo."
+        "details": "El usuario carga sus facturas, la app las lee automáticamente, las clasifica con ayuda de inteligencia artificial y genera el formulario con los datos listos para presentar la declaración."
       },
       {
         "id": "p4",
@@ -152,7 +152,7 @@
         "category": "backend",
         "client": "Cliente freelance · Operaciones",
         "deliverable": "Servicio Rust, consultas SQL, interfaz React, imagen Docker",
-        "technologies": ["Rust", "SQL", "React", "Docker"],
+        "technologies": ["Rust", "PostgreSQL", "React", "Docker"],
         "images": ["projects/project-4-1.svg", "projects/project-4-2.svg", "projects/project-4-3.svg"],
         "details": "Implementé el servicio con Rust, interfaz en React, modelé las consultas SQL y preparé su ejecución en contenedores."
       }

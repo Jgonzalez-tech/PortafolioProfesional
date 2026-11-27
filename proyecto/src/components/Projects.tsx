@@ -10,7 +10,7 @@ import Reveal from './Reveal'
 
 type Filter = 'all' | ProjectCategory
 
-const filters: Filter[] = ['all', 'backend', 'data', 'fullstack']
+const filters: Filter[] = ['all', 'backend', 'fullstack', 'desktop']
 
 function useReducedMotion() {
   const [reduced, setReduced] = useState(

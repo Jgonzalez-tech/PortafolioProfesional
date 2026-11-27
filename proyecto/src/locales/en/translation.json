@@ -88,8 +88,8 @@
     "filters": {
       "all": "All",
       "backend": "Backend",
-      "data": "Data",
-      "fullstack": "Fullstack"
+      "fullstack": "Fullstack",
+      "desktop": "Desktop"
     },
     "client": "Client / type",
     "deliverable": "Deliverable",
@@ -119,23 +119,23 @@
       },
       {
         "id": "p2",
-        "title": "Database modelling and optimisation",
-        "description": "Redesign of a relational schema and queries for a booking system.",
-        "category": "data",
-        "client": "Freelance client · Local services",
-        "deliverable": "Schema, migrations and recommendations",
-        "technologies": ["PostgreSQL", "SQL", "Node.js"],
+        "title": "Cinema Appify: cinema management web app",
+        "description": "Web system for cinema management: listings, showtimes, screens, bookings and ticket sales.",
+        "category": "fullstack",
+        "client": "Freelance client · Web platform",
+        "deliverable": "Complete web application (backend, frontend and database)",
+        "technologies": ["Node.js", "MySQL", "Angular", "TypeScript"],
         "images": ["projects/project-2-1.svg", "projects/project-2-2.svg", "projects/project-2-3.svg"],
-        "details": "I normalised tables, added indexes and reviewed critical queries. The result was lower latency and a model that's easier to maintain."
+        "details": "I developed Cinema Appify end to end, a web system for cinema management: listings, showtimes, screens, bookings and ticket sales."
       },
       {
         "id": "p3",
-        "title": "Fullstack dashboard implementation",
-        "description": "Integration of a Node/TypeScript API with a React interface for daily operations.",
-        "category": "fullstack",
+        "title": "TribuTico: desktop app for tax filing",
+        "description": "Desktop app that simplifies tax returns.",
+        "category": "desktop",
         "client": "Freelance client · Digital business",
-        "deliverable": "API + interface + deployment",
-        "technologies": ["Node.js", "TypeScript", "React", "SQL"],
+        "deliverable": "Complete desktop application (Rust core and React interface)",
+        "technologies": ["Tauri", "Rust", "React", "Vite", "TypeScript", "AI"],
         "images": [
           "projects/project-3-1.svg",
           "projects/project-3-2.svg",
@@ -143,7 +143,7 @@
           "projects/project-3-4.svg",
           "projects/project-3-5.svg"
         ],
-        "details": "I built the service, the data model and the interface. I coordinated contracts and loading states so the flow worked end to end."
+        "details": "Users upload their invoices, the app reads them automatically, classifies them with the help of artificial intelligence and generates the form with the data ready to file the return."
       },
       {
         "id": "p4",
@@ -152,7 +152,7 @@
         "category": "backend",
         "client": "Freelance client · Operations",
         "deliverable": "Rust service, SQL queries, React interface, Docker image",
-        "technologies": ["Rust", "SQL", "React", "Docker"],
+        "technologies": ["Rust", "PostgreSQL", "React", "Docker"],
         "images": ["projects/project-4-1.svg", "projects/project-4-2.svg", "projects/project-4-3.svg"],
         "details": "I implemented the service in Rust, built the React interface, modelled the SQL queries and prepared it to run in containers."
       }

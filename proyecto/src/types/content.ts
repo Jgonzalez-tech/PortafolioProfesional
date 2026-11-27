@@ -1,4 +1,4 @@
-export type ProjectCategory = 'backend' | 'data' | 'fullstack'
+export type ProjectCategory = 'backend' | 'fullstack' | 'desktop'
 
 export type Project = {
   id: string
