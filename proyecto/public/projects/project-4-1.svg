@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740">
+  <!-- Canvas Background -->
+  <rect width="1280" height="740" fill="#F8F9FF"/>
+
+  <!-- Left Sidebar (256px) -->
+  <rect x="0" y="0" width="256" height="740" fill="#FFFFFF"/>
+  <line x1="256" y1="0" x2="256" y2="740" stroke="#C4C5D7" stroke-width="1"/>
+
+  <!-- Brand -->
+  <rect x="24" y="22" width="32" height="32" rx="8" fill="#0037B0"/>
+  <g transform="translate(40,38)" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="-4.5" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="4.3" cy="-1.4" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="2.7" cy="3.6" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="-2.7" cy="3.6" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="-4.3" cy="-1.4" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="0" cy="0" r="2.2" fill="#0037B0" stroke="#FFFFFF" stroke-width="1.4"/>
+  </g>
+  <text x="66" y="43" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0D1C2F">Floralia</text>
+
+  <!-- Navigation -->
+  
+  <rect x="20" y="88" width="216" height="36" rx="8" fill="#F0F4FF"/>
+  <g transform="translate(32,99)" fill="none" stroke="#0037B0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="15" height="14" rx="2"/>
+    <line x1="0" y1="5" x2="15" y2="5"/>
+    <line x1="5.5" y1="5" x2="5.5" y2="14"/>
+  </g>
+  <text x="56" y="111" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#0037B0">Explorador de datos</text>
+  <rect x="20" y="130" width="216" height="36" rx="8" fill="transparent"/>
+  <g transform="translate(32,141)" fill="none" stroke="#434655" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 0h8l4 4v10a1.5 1.5 0 0 1-1.5 1.5h-10.5A1.5 1.5 0 0 1 0.5 14V1.5A1.5 1.5 0 0 1 2 0z"/>
+    <polyline points="10,0 10,4 14,4"/>
+    <line x1="3.5" y1="8" x2="10.5" y2="8"/>
+    <line x1="3.5" y1="11.5" x2="8" y2="11.5"/>
+  </g>
+  <text x="56" y="153" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="500" fill="#434655">Generar reportes</text>
+  <rect x="20" y="172" width="216" height="36" rx="8" fill="transparent"/>
+  <g transform="translate(32,183)" fill="none" stroke="#434655" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1.5 11.5a6.5 6.5 0 1 1 12 0"/>
+    <line x1="7.5" y1="8.5" x2="11" y2="5"/>
+    <circle cx="7.5" cy="9" r="1.2" fill="#434655" stroke="none"/>
+  </g>
+  <text x="56" y="195" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="500" fill="#434655">Monitor de latencia</text>
+
+  <!-- Sidebar Footer: DB Status -->
+  <rect x="20" y="654" width="216" height="64" rx="8" fill="#F0F4FF" stroke="#C4C5D7" stroke-width="1"/>
+  <circle cx="36" cy="676" r="4" fill="#006C4A"/>
+  <text x="48" y="680" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#0D1C2F">PostgreSQL · Conectado</text>
+  <text x="32" y="702" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#434655">Pool activo · 4.1 ms p50</text>
+
+  <!-- Top Bar (60px) -->
+  <rect x="257" y="0" width="1023" height="60" fill="#FFFFFF"/>
+  <line x1="257" y1="60" x2="1280" y2="60" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="288" y="35" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" fill="#434655">Base de datos completa  <tspan fill="#94A3B8">/</tspan>  <tspan font-weight="600" fill="#0D1C2F">Gestión integral</tspan></text>
+  
+  <rect x="986" y="17" width="116" height="26" rx="13" fill="#D1FAE5"/>
+  <circle cx="1002" cy="30" r="4" fill="#006C4A"/>
+  <text x="1014" y="34" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11.5" font-weight="500" fill="#005136">Sincronizado</text>
+
+
+  <!-- Primary CTA in Header -->
+  <rect x="1114" y="13" width="134" height="34" rx="8" fill="#0037B0"/>
+  <g transform="translate(1128,23)" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 0h7l3.5 3.5v9.5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z"/>
+    <line x1="6.5" y1="5.5" x2="6.5" y2="10.5"/>
+    <line x1="4" y1="8" x2="9" y2="8"/>
+  </g>
+  <text x="1192" y="35" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Nuevo reporte</text>
+
+  <!-- Page Title -->
+  <text x="288" y="102" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0D1C2F">Explorador completo de datos</text>
+  <text x="288" y="124" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Consulta toda la información de tus floristerías desde una sola vista: pedidos, inventario floral, clientes y entregas.</text>
+
+  <!-- Tabs -->
+  <line x1="288" y1="168" x2="1248" y2="168" stroke="#C4C5D7" stroke-width="1"/>
+  <rect x="288" y="140" width="112" height="28" fill="#F0F4FF"/>
+  <line x1="288" y1="168" x2="400" y2="168" stroke="#0037B0" stroke-width="2.5"/>
+  <text x="344" y="159" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#0037B0">Pedidos (262)</text>
+  <text x="488" y="159" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#434655">Inventario de flores (48)</text>
+  <text x="652" y="159" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#434655">Clientes frecuentes (135)</text>
+  <text x="816" y="159" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#434655">Rutas de entrega (12)</text>
+
+  <!-- Search & Filter Bar -->
+  <rect x="288" y="182" width="960" height="54" rx="10" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <rect x="304" y="192" width="490" height="34" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <!-- Search icon -->
+  <circle cx="321" cy="207" r="4.8" fill="none" stroke="#434655" stroke-width="1.6"/>
+  <line x1="324.5" y1="210.5" x2="328" y2="214" stroke="#434655" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="336" y="214" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Buscar por folio, cliente, arreglo floral o sede...</text>
+
+  <rect x="806" y="192" width="112" height="34" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="862" y="213" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" fill="#0D1C2F">Sede: Todas</text>
+  <rect x="928" y="192" width="196" height="34" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1026" y="213" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" fill="#0D1C2F">Entrega: Domicilio + Tienda</text>
+  <rect x="1134" y="192" width="98" height="34" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1183" y="213" text-anchor="middle" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#0D1C2F">Oct 2026</text>
+
+  <!-- Table Card -->
+  <rect x="288" y="250" width="960" height="466" rx="10" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <rect x="289" y="251" width="958" height="52" rx="9" fill="#F0F4FF"/>
+  <text x="304" y="282" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">FOLIO</text>
+  <text x="382" y="282" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">SEDE</text>
+  <text x="502" y="282" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">CLIENTE</text>
+  <text x="652" y="282" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">ARREGLO / PRODUCTO</text>
+  <text x="898" y="282" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">ENTREGA</text>
+  <text x="1084" y="282" text-anchor="end" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">TOTAL (CRC)</text>
+  <text x="1186" y="282" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">ESTADO</text>
+
+  
+  <line x1="288" y1="304" x2="1248" y2="304" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="327" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1042</text>
+  <text x="382" y="327" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Escazú</text>
+  <text x="502" y="327" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Mariana Soto</text>
+  <text x="652" y="327" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Ramo 18 Rosas + Follaje</text>
+  <text x="898" y="327" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="327" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡28,500</text>
+  <rect x="1144" y="311" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="326" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="340" x2="1248" y2="340" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="363" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1041</text>
+  <text x="382" y="363" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Curridabat</text>
+  <text x="502" y="363" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Hotel Bougainvillea</text>
+  <text x="652" y="363" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">4 Centros de Mesa Semanales</text>
+  <text x="898" y="363" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Suscripción</text>
+  <text x="1084" y="363" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡54,000</text>
+  <rect x="1144" y="347" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="362" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="376" x2="1248" y2="376" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="399" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1040</text>
+  <text x="382" y="399" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Heredia</text>
+  <text x="502" y="399" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Eduardo Trejo</text>
+  <text x="652" y="399" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Orquídea Phalaenopsis</text>
+  <text x="898" y="399" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">En tienda</text>
+  <text x="1084" y="399" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡22,000</text>
+  <rect x="1144" y="383" width="84" height="22" rx="11" fill="#E8EEFF"/>
+  <text x="1186" y="398" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">En ruta</text>
+  <line x1="288" y1="412" x2="1248" y2="412" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="435" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1039</text>
+  <text x="382" y="435" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Alajuela</text>
+  <text x="502" y="435" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Clínica Santa María</text>
+  <text x="652" y="435" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Arreglo Floral Recepción</text>
+  <text x="898" y="435" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="435" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡31,500</text>
+  <rect x="1144" y="419" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="434" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="448" x2="1248" y2="448" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="471" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1038</text>
+  <text x="382" y="471" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Escazú</text>
+  <text x="502" y="471" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Camila Vargas</text>
+  <text x="652" y="471" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Bouquet Girasoles y Lilium</text>
+  <text x="898" y="471" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="471" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡19,800</text>
+  <rect x="1144" y="455" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="470" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="484" x2="1248" y2="484" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="507" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1037</text>
+  <text x="382" y="507" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Curridabat</text>
+  <text x="502" y="507" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Andrés Morales</text>
+  <text x="652" y="507" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Caja de 12 Tulipanes</text>
+  <text x="898" y="507" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">En tienda</text>
+  <text x="1084" y="507" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡26,000</text>
+  <rect x="1144" y="491" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="506" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="520" x2="1248" y2="520" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="543" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1036</text>
+  <text x="382" y="543" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Heredia</text>
+  <text x="502" y="543" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Restaurante El Patio</text>
+  <text x="652" y="543" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Decoración Mesas Fin de Semana</text>
+  <text x="898" y="543" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="543" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡42,500</text>
+  <rect x="1144" y="527" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="542" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="556" x2="1248" y2="556" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="579" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1035</text>
+  <text x="382" y="579" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Alajuela</text>
+  <text x="502" y="579" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Lucía Jiménez</text>
+  <text x="652" y="579" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Ramo Mixto Primavera</text>
+  <text x="898" y="579" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="579" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡17,500</text>
+  <rect x="1144" y="563" width="84" height="22" rx="11" fill="#E8EEFF"/>
+  <text x="1186" y="578" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">En ruta</text>
+  <line x1="288" y1="592" x2="1248" y2="592" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="615" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1034</text>
+  <text x="382" y="615" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Escazú</text>
+  <text x="502" y="615" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Roberto Quesada</text>
+  <text x="652" y="615" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Corona Fúnebre Lirios Blancos</text>
+  <text x="898" y="615" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">Domicilio</text>
+  <text x="1084" y="615" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡48,000</text>
+  <rect x="1144" y="599" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="614" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+  <line x1="288" y1="628" x2="1248" y2="628" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="304" y="651" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0037B0">FL-1033</text>
+  <text x="382" y="651" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Sede Curridabat</text>
+  <text x="502" y="651" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Elena Solís</text>
+  <text x="652" y="651" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Maceta Anturio Rojo</text>
+  <text x="898" y="651" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#434655">En tienda</text>
+  <text x="1084" y="651" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12.5" fill="#0D1C2F">₡15,200</text>
+  <rect x="1144" y="635" width="84" height="22" rx="11" fill="#D1FAE5"/>
+  <text x="1186" y="650" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#005136">Entregado</text>
+
+  <!-- Table Footer -->
+  <line x1="288" y1="664" x2="1248" y2="664" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="304" y="695" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11.5" fill="#434655">Mostrando 1–10 de 262 pedidos en octubre · Consulta en 3.4 ms</text>
+  <rect x="966" y="676" width="104" height="30" rx="6" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1008" y="695" text-anchor="middle" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11.5" fill="#0D1C2F">Mostrar: 10</text>
+  <polyline points="1052,689 1056,693 1060,689" fill="none" stroke="#434655" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1080" y="676" width="74" height="30" rx="6" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1117" y="695" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#434655">Anterior</text>
+  <rect x="1162" y="676" width="74" height="30" rx="6" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1199" y="695" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#0D1C2F">Siguiente</text>
+
+</svg>

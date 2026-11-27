@@ -327,7 +327,7 @@ export default function Projects() {
                         <img
                           src={`${import.meta.env.BASE_URL}${image}`}
                           alt={`${selectedProject.title} · ${index + 1}`}
-                          loading="lazy"
+                          loading="eager"
                           className="aspect-[16/9] w-full object-cover"
                         />
                       </div>

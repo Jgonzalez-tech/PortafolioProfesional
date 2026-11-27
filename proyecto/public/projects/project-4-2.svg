@@ -1,23 +1,167 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="SERVICIO RUST - VISTA 2/3">
-  <defs>
-    <linearGradient id="g41" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#1e293b"/>
-      <stop offset="1" stop-color="#0f172a"/>
-    </linearGradient>
-  </defs>
-  <rect width="640" height="400" fill="url(#g41)"/>
-  <circle cx="530" cy="70" r="120" fill="#22d3ee" fill-opacity="0.32"/>
-  <rect x="60" y="66" width="520" height="268" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2"/>
-  <rect x="60" y="66" width="520" height="38" rx="16" fill="#1e293b"/>
-  <circle cx="86" cy="85" r="6" fill="#22d3ee"/>
-  <circle cx="108" cy="85" r="6" fill="#334155"/>
-  <circle cx="130" cy="85" r="6" fill="#334155"/>
-  <rect x="132" y="132" width="220" height="14" rx="7" fill="#22d3ee" fill-opacity="0.9"/>
-  <rect x="132" y="162" width="310" height="9" rx="4.5" fill="#64748b"/>
-  <rect x="132" y="184" width="260" height="9" rx="4.5" fill="#475569"/>
-  <rect x="132" y="218" width="132" height="62" rx="10" fill="#22d3ee" fill-opacity="0.2" stroke="#22d3ee"/>
-  <rect x="264" y="218" width="132" height="62" rx="10" fill="#1e293b" stroke="#334155"/>
-  <rect x="386" y="218" width="132" height="62" rx="10" fill="#22d3ee" fill-opacity="0.35"/>
-  <text x="60" y="368" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="16" font-weight="700">SERVICIO RUST</text>
-  <text x="580" y="368" text-anchor="end" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">VISTA 2/3</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740">
+  <!-- Canvas Background -->
+  <rect width="1280" height="740" fill="#F8F9FF"/>
+
+  <!-- Left Sidebar (256px) -->
+  <rect x="0" y="0" width="256" height="740" fill="#FFFFFF"/>
+  <line x1="256" y1="0" x2="256" y2="740" stroke="#C4C5D7" stroke-width="1"/>
+
+  <!-- Brand -->
+  <rect x="24" y="22" width="32" height="32" rx="8" fill="#0037B0"/>
+  <g transform="translate(40,38)" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="-4.5" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="4.3" cy="-1.4" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="2.7" cy="3.6" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="-2.7" cy="3.6" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="-4.3" cy="-1.4" r="2.8" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="0" cy="0" r="2.2" fill="#0037B0" stroke="#FFFFFF" stroke-width="1.4"/>
+  </g>
+  <text x="66" y="43" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0D1C2F">Floralia</text>
+
+  <!-- Navigation -->
+  
+  <rect x="20" y="88" width="216" height="36" rx="8" fill="transparent"/>
+  <g transform="translate(32,99)" fill="none" stroke="#434655" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="15" height="14" rx="2"/>
+    <line x1="0" y1="5" x2="15" y2="5"/>
+    <line x1="5.5" y1="5" x2="5.5" y2="14"/>
+  </g>
+  <text x="56" y="111" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="500" fill="#434655">Explorador de datos</text>
+  <rect x="20" y="130" width="216" height="36" rx="8" fill="#F0F4FF"/>
+  <g transform="translate(32,141)" fill="none" stroke="#0037B0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 0h8l4 4v10a1.5 1.5 0 0 1-1.5 1.5h-10.5A1.5 1.5 0 0 1 0.5 14V1.5A1.5 1.5 0 0 1 2 0z"/>
+    <polyline points="10,0 10,4 14,4"/>
+    <line x1="3.5" y1="8" x2="10.5" y2="8"/>
+    <line x1="3.5" y1="11.5" x2="8" y2="11.5"/>
+  </g>
+  <text x="56" y="153" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="600" fill="#0037B0">Generar reportes</text>
+  <rect x="20" y="172" width="216" height="36" rx="8" fill="transparent"/>
+  <g transform="translate(32,183)" fill="none" stroke="#434655" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1.5 11.5a6.5 6.5 0 1 1 12 0"/>
+    <line x1="7.5" y1="8.5" x2="11" y2="5"/>
+    <circle cx="7.5" cy="9" r="1.2" fill="#434655" stroke="none"/>
+  </g>
+  <text x="56" y="195" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="500" fill="#434655">Monitor de latencia</text>
+
+  <!-- Sidebar Footer: DB Status -->
+  <rect x="20" y="654" width="216" height="64" rx="8" fill="#F0F4FF" stroke="#C4C5D7" stroke-width="1"/>
+  <circle cx="36" cy="676" r="4" fill="#006C4A"/>
+  <text x="48" y="680" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#0D1C2F">PostgreSQL · Conectado</text>
+  <text x="32" y="702" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#434655">Pool activo · 4.1 ms p50</text>
+
+  <!-- Top Bar (60px) -->
+  <rect x="257" y="0" width="1023" height="60" fill="#FFFFFF"/>
+  <line x1="257" y1="60" x2="1280" y2="60" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="288" y="35" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13.5" fill="#434655">Reportes  <tspan fill="#94A3B8">/</tspan>  <tspan font-weight="600" fill="#0D1C2F">Corte personalizado</tspan></text>
+  
+  <rect x="1132" y="17" width="116" height="26" rx="13" fill="#D1FAE5"/>
+  <circle cx="1148" cy="30" r="4" fill="#006C4A"/>
+  <text x="1160" y="34" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="11.5" font-weight="500" fill="#005136">Sincronizado</text>
+
+
+  <text x="288" y="102" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="24" font-weight="700" fill="#0D1C2F">Generador de reportes por corte</text>
+  <text x="288" y="124" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Filtra un subconjunto específico de ventas o inventario floral, revisa el resultado exacto y elige el formato para exportarlo.</text>
+
+  <!-- Filters Card -->
+  <rect x="288" y="144" width="960" height="190" rx="10" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="308" y="174" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="16" font-weight="600" fill="#0D1C2F">Filtros del corte de información</text>
+  <text x="1228" y="174" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#0037B0">4 filtros activos</text>
+  <line x1="308" y1="188" x2="1228" y2="188" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- 4 Filter Inputs -->
+  <text x="308" y="212" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#434655">TIPO DE REPORTE</text>
+  <rect x="308" y="220" width="218" height="36" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="320" y="242" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Ventas por arreglo floral</text>
+  <polyline points="508,236 512,240 516,236" fill="none" stroke="#434655" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="540" y="212" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#434655">SEDES</text>
+  <rect x="540" y="220" width="218" height="36" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="552" y="242" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Escazú, Curridabat, Heredia...</text>
+  <polyline points="740,236 744,240 748,236" fill="none" stroke="#434655" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="772" y="212" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#434655">RANGO DE FECHAS</text>
+  <rect x="772" y="220" width="218" height="36" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="784" y="242" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#0D1C2F">01 Oct — 31 Oct 2026</text>
+  <g transform="translate(967,231)" fill="none" stroke="#0037B0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="2" width="13" height="12" rx="2"/>
+    <line x1="0" y1="6" x2="13" y2="6"/>
+    <line x1="4" y1="0" x2="4" y2="3"/>
+    <line x1="9" y1="0" x2="9" y2="3"/>
+  </g>
+
+  <text x="1004" y="212" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600" fill="#434655">ESTADO DE ENTREGA</text>
+  <rect x="1004" y="220" width="224" height="36" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="1016" y="242" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="12.5" fill="#0D1C2F">Solo pedidos entregados</text>
+  <polyline points="1210,236 1214,240 1218,236" fill="none" stroke="#434655" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Columns & Apply -->
+  <text x="308" y="310" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">COLUMNAS:</text>
+  <rect x="372" y="294" width="48" height="24" rx="5" fill="#F0F4FF"/><text x="396.0" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">Sede</text><rect x="428" y="294" width="132" height="24" rx="5" fill="#F0F4FF"/><text x="494.0" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">Categoría floral</text><rect x="568" y="294" width="69" height="24" rx="5" fill="#F0F4FF"/><text x="602.5" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">Pedidos</text><rect x="645" y="294" width="125" height="24" rx="5" fill="#F0F4FF"/><text x="707.5" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">Precio promedio</text><rect x="778" y="294" width="118" height="24" rx="5" fill="#F0F4FF"/><text x="837.0" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#0037B0">Ingresos (CRC)</text>
+  <rect x="1076" y="288" width="152" height="34" rx="8" fill="#E2E9FF"/>
+  <g transform="translate(1092,298)" fill="none" stroke="#0037B0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12.5 5.5A5.5 5.5 0 1 0 13 8.5"/>
+    <polyline points="10,5.5 13,5.5 13,2.5"/>
+  </g>
+  <text x="1162" y="310" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#0037B0">Aplicar filtros</text>
+
+  <!-- Result Preview Card -->
+  <rect x="288" y="352" width="960" height="366" rx="10" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="308" y="384" font-family="'Red Hat Display', 'Instrument Sans', system-ui, sans-serif" font-size="16" font-weight="600" fill="#0D1C2F">Resultado del corte · Octubre 2026</text>
+  <text x="576" y="384" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#006C4A">248 pedidos filtrados · 11.8 ms</text>
+  <text x="1032" y="384" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="600" fill="#0D1C2F">Total: ₡6,076,000</text>
+  <text x="1228" y="384" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="600" fill="#0037B0">Precio promedio: ₡24,500</text>
+  <line x1="308" y1="400" x2="1228" y2="400" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Result Table -->
+  <rect x="308" y="416" width="920" height="222" rx="8" fill="#FFFFFF" stroke="#C4C5D7" stroke-width="1"/>
+  <rect x="309" y="417" width="918" height="38" rx="7" fill="#F0F4FF"/>
+  <text x="324" y="440" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">SEDE</text>
+  <text x="510" y="440" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">CATEGORÍA MÁS VENDIDA</text>
+  <text x="850" y="440" text-anchor="end" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">PEDIDOS</text>
+  <text x="1020" y="440" text-anchor="end" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">PRECIO PROM.</text>
+  <text x="1210" y="440" text-anchor="end" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#434655">INGRESOS (CRC)</text>
+  
+  <line x1="308" y1="486" x2="1228" y2="486" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="324" y="510" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#0D1C2F">Sede Escazú</text>
+  <text x="510" y="510" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Ramos de rosas y follaje</text>
+  <text x="850" y="510" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#0D1C2F">78</text>
+  <text x="1020" y="510" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#434655">₡27,500</text>
+  <text x="1210" y="510" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="500" fill="#0D1C2F">₡2,145,000</text>
+  <line x1="308" y1="524" x2="1228" y2="524" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="324" y="548" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#0D1C2F">Sede Curridabat</text>
+  <text x="510" y="548" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Decoración para hoteles</text>
+  <text x="850" y="548" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#0D1C2F">64</text>
+  <text x="1020" y="548" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#434655">₡25,200</text>
+  <text x="1210" y="548" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="500" fill="#0D1C2F">₡1,612,800</text>
+  <line x1="308" y1="562" x2="1228" y2="562" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="324" y="586" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#0D1C2F">Sede Heredia</text>
+  <text x="510" y="586" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Orquídeas y plantas de interior</text>
+  <text x="850" y="586" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#0D1C2F">58</text>
+  <text x="1020" y="586" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#434655">₡22,100</text>
+  <text x="1210" y="586" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="500" fill="#0D1C2F">₡1,281,800</text>
+  <line x1="308" y1="600" x2="1228" y2="600" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="324" y="624" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#0D1C2F">Sede Alajuela</text>
+  <text x="510" y="624" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" fill="#434655">Arreglos corporativos</text>
+  <text x="850" y="624" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#0D1C2F">48</text>
+  <text x="1020" y="624" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#434655">₡21,591</text>
+  <text x="1210" y="624" text-anchor="end" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="13" font-weight="500" fill="#0D1C2F">₡1,036,400</text>
+
+  <!-- Export Action Bar -->
+  <line x1="308" y1="654" x2="1228" y2="654" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="308" y="688" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#0D1C2F">Formato de exportación:</text>
+  <rect x="468" y="669" width="96" height="30" rx="6" fill="#F0F4FF" stroke="#0037B0" stroke-width="1.2"/>
+  <text x="516" y="689" text-anchor="middle" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="600" fill="#0037B0">PDF (.pdf)</text>
+  <rect x="574" y="669" width="112" height="30" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="630" y="689" text-anchor="middle" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#434655">Excel (.xlsx)</text>
+  <rect x="696" y="669" width="96" height="30" rx="6" fill="#F8F9FF" stroke="#C4C5D7" stroke-width="1"/>
+  <text x="744" y="689" text-anchor="middle" font-family="'Spline Sans Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#434655">CSV (.csv)</text>
+
+  <rect x="1050" y="666" width="178" height="36" rx="8" fill="#0037B0"/>
+  <g transform="translate(1066,677)" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="6.5" y1="1" x2="6.5" y2="9.5"/>
+    <polyline points="3,6.5 6.5,10 10,6.5"/>
+    <path d="M1 10.5v2a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-2"/>
+  </g>
+  <text x="1150" y="689" text-anchor="middle" font-family="'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Exportar selección</text>
+
 </svg>
