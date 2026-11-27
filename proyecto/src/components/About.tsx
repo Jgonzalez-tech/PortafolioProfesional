@@ -46,7 +46,6 @@ export default function About() {
 
           <blockquote className="mt-9 border-l-2 border-accent pl-5">
             <p className="text-lg font-medium italic text-ink">“{t('about.quote')}”</p>
-            <footer className="mt-2 text-sm text-accent-text">{t('about.quoteAuthor')}</footer>
           </blockquote>
         </Reveal>
       </div>

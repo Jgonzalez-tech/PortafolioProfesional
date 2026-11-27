@@ -34,7 +34,7 @@
   "hero": {
     "role": "Freelance Software Engineer · Backend & Data",
     "headline": "Clean code, interfaces with purpose.",
-    "subheadline": "I design and build robust, secure and scalable services, APIs and data models. I also work with React and Angular to understand the whole system and deliver fullstack solutions that work end to end.",
+    "subheadline": "I design and develop services, APIs, data models and system architecture, creating robust, secure and scalable end-to-end solutions.",
     "ctaProjects": "View projects",
     "ctaContact": "Request a quote",
     "scroll": "Scroll to explore",
@@ -44,11 +44,10 @@
     "eyebrow": "About",
     "title": "Solid engineering, clear communication",
     "body": "I'm Javier González, a software engineer specialised in backend and databases. I enjoy turning complex problems into functional, well-structured solutions while working remotely with clients.",
-    "body2": "My mission is to design solid, secure and efficient backend systems with well-modelled databases. I value quality, continuous learning, responsibility, honesty, collaboration and a user-focused approach. I also work on software architecture, designing the structure of large systems so they stay maintainable and scalable.",
+    "body2": "I focus on designing solid, secure and efficient systems, always thinking about the people who use them. I believe in quality, in continuous learning, in taking responsibility and in being honest. My work also covers architecture: shaping large systems so they are easy to maintain and grow.",
     "skillsTitle": "Core stack",
     "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "Git"],
-    "quote": "Clear deliverables, deadlines met and systems that stay maintainable.",
-    "quoteAuthor": "How I work as a freelancer",
+    "quote": "Clear deliverables, deadlines met and systems that can be maintained.",
     "imageAlt": "Illustration of a freelance workspace"
   },
   "services": {

@@ -34,7 +34,7 @@
   "hero": {
     "role": "Ingeniero de Software Freelance · Backend & Datos",
     "headline": "Código limpio, interfaces con propósito.",
-    "subheadline": "Diseño y desarrollo de servicios, APIs y modelos de datos robustos, seguros y escalables. Conozco React y Angular para entender el sistema completo y entregar soluciones fullstack que funcionan de extremo a extremo.",
+    "subheadline": "Diseño y desarrollo de servicios, APIs, modelos de datos y arquitectura de sistemas, creando soluciones robustas, seguras y escalables de extremo a extremo.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Solicitar presupuesto",
     "scroll": "Desplazarse para explorar",
@@ -44,11 +44,10 @@
     "eyebrow": "Sobre mí",
     "title": "Ingeniería sólida, comunicación clara",
     "body": "Soy Javier González, Ingeniero de Software especializado en backend y bases de datos. Disfruto convertir problemas complejos en soluciones funcionales y bien estructuradas, trabajando de forma remota con clientes.",
-    "body2": "Mi misión es diseñar sistemas backend sólidos, seguros y eficientes, con bases de datos bien modeladas. Valoro la calidad, el aprendizaje continuo, la responsabilidad, la honestidad, la colaboración y la orientación al usuario. También trabajo en arquitectura: diseño la estructura de sistemas grandes para que sean mantenibles y escalables.",
+    "body2": "Me dedico a diseñar sistemas sólidos, seguros y eficientes, siempre pensando en quien los usa. Creo en la calidad, en seguir aprendiendo, en asumir responsabilidad y en ser honesto. Mi trabajo también abarca la arquitectura: dar forma a sistemas grandes para que sean fáciles de mantener y crecer.",
     "skillsTitle": "Stack principal",
     "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "Git"],
     "quote": "Entregables claros, plazos cumplidos y sistemas que se pueden mantener.",
-    "quoteAuthor": "Mi forma de trabajar freelance",
     "imageAlt": "Ilustración de un espacio de trabajo freelance"
   },
   "services": {
