@@ -1,4 +1,4 @@
-export type ProjectCategory = 'web' | 'ui' | 'maintenance'
+export type ProjectCategory = 'backend' | 'data' | 'fullstack'
 
 export type Project = {
   id: string
@@ -8,11 +8,11 @@ export type Project = {
   client: string
   deliverable: string
   technologies: string[]
-  image: string
+  images: string[]
   details: string
 }
 
-export type ServiceIcon = 'code' | 'palette' | 'wrench'
+export type ServiceIcon = 'code' | 'palette' | 'wrench' | 'architecture'
 
 export type Service = {
   id: string

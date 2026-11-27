@@ -14,7 +14,7 @@ export default function App() {
   const { t } = useTranslation()
 
   return (
-    <div className="min-h-svh bg-base">
+    <div className="min-h-svh bg-canvas">
       <a href="#main" className="skip-link">
         {t('common.skipToContent')}
       </a>

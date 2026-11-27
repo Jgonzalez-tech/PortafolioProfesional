@@ -8,19 +8,23 @@ export type SocialLink = {
 
 /**
  * Datos del perfil freelance.
- * TODO: reemplaza los valores marcados con tus datos reales antes de publicar.
+ * TODO: confirma el número de WhatsApp y la URL de LinkedIn antes de publicar.
  */
 export const site = {
   name: 'Javier González',
-  email: 'TU_EMAIL@ejemplo.com', // TODO
-  whatsapp: '0000000000000', // TODO: código de país + número, sin "+", espacios ni guiones
-  cvUrl: `${import.meta.env.BASE_URL}cv/CV-Freelance-Javier-Gonzalez.pdf`,
+  shortName: 'Javier González',
+  email: 'jgonzalezp@ucenfotec.ac.cr',
+  whatsapp: '5068469469', // TODO: el documento indica +506 8469-469; confirma el número completo
+  cvUrls: {
+    es: `${import.meta.env.BASE_URL}cv/CV_ImagenWeb_ES.pdf`,
+    en: `${import.meta.env.BASE_URL}cv/CV_ImagenWeb_EN.pdf`,
+  },
   socials: [
-    { label: 'GitHub', url: 'https://github.com/TU_USUARIO', icon: 'github' }, // TODO
+    { label: 'GitHub', url: 'https://github.com/Jgonzalez-tech', icon: 'github' },
     {
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/TU_PERFIL/',
       icon: 'linkedin',
-    }, // TODO
+    }, // TODO: reemplaza con tu URL real de LinkedIn
   ] satisfies SocialLink[],
 } as const

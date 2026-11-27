@@ -21,7 +21,7 @@ export default function ScrollTop() {
       type="button"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       aria-label={t('aria.scrollTop')}
-      className="fixed bottom-24 right-5 z-40 inline-flex h-11 w-11 items-center justify-center rounded-full border border-accent/60 bg-surface/90 text-accent shadow-lg backdrop-blur transition hover:bg-accent hover:text-slate-950 md:bottom-6 md:right-24"
+      className="scroll-top-bounce fixed bottom-24 right-5 z-40 inline-flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-accent/60 bg-surface/90 text-accent-text shadow-lg backdrop-blur transition hover:bg-accent hover:text-slate-950 md:bottom-6 md:right-24"
     >
       <ArrowUpIcon className="h-5 w-5" />
     </button>

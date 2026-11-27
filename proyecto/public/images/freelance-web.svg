@@ -16,5 +16,5 @@
     <circle cx="65" cy="26" r="13" fill="#0f172a" fill-opacity="0.85"/>
     <path d="M40 58c2-13 12-20 25-20s23 7 25 20" fill="#0f172a" fill-opacity="0.85"/>
   </g>
-  <text x="70" y="336" fill="#64748b" font-family="Arial, sans-serif" font-size="14">PLACEHOLDER · reemplaza con la imagen web freelance del curso</text>
+  <text x="70" y="336" fill="#64748b" font-family="Arial, sans-serif" font-size="14">PLACEHOLDER · reemplaza con tu imagen freelance fullstack</text>
 </svg>

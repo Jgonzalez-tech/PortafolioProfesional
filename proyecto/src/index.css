@@ -4,10 +4,120 @@
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
 
-  /* Paleta 60-30-10: base oscura (60), superficie (30), acento cian (10). */
-  --color-base: #0f172a;
-  --color-surface: #1e293b;
+  /* Paleta 60-30-10: claro (60), azul marino (30), cian (10). */
+  --color-canvas: var(--app-canvas);
+  --color-surface: var(--app-surface);
+  --color-deep: var(--app-deep);
+  --color-on-deep: #f8fafc;
+  --color-ink: var(--app-ink);
+  --color-muted: var(--app-muted);
+  --color-line: var(--app-line);
   --color-accent: #22d3ee;
+  --color-accent-text: var(--app-accent-text);
+  --color-error: var(--app-error);
+  --color-warning: var(--app-warning);
+}
+
+/* Registrar los tokens como color permite interpolarlos al cambiar de tema. */
+@property --app-canvas {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #e8eef6;
+}
+
+@property --app-surface {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #f8fafc;
+}
+
+@property --app-deep {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #0f172a;
+}
+
+@property --app-ink {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #0f172a;
+}
+
+@property --app-muted {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #334155;
+}
+
+@property --app-line {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #b8c4d4;
+}
+
+@property --app-accent-text {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #0891b2;
+}
+
+@property --app-error {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #b91c1c;
+}
+
+@property --app-warning {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #92400e;
+}
+
+@property --app-grid {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgb(15 23 42 / 0.08);
+}
+
+:root {
+  /* Tema claro: el definido en la identidad visual (Tarea 2). */
+  --app-canvas: #e8eef6;
+  --app-surface: #f8fafc;
+  --app-deep: #0f172a;
+  --app-ink: #0f172a;
+  --app-muted: #334155;
+  --app-line: #b8c4d4;
+  --app-accent-text: #0891b2;
+  --app-error: #b91c1c;
+  --app-warning: #92400e;
+  --app-grid: rgb(15 23 42 / 0.08);
+  color-scheme: light;
+  transition:
+    --app-canvas 350ms ease,
+    --app-surface 350ms ease,
+    --app-deep 350ms ease,
+    --app-ink 350ms ease,
+    --app-muted 350ms ease,
+    --app-line 350ms ease,
+    --app-accent-text 350ms ease,
+    --app-error 350ms ease,
+    --app-warning 350ms ease,
+    --app-grid 350ms ease;
+}
+
+[data-theme='dark'] {
+  /* Tema oscuro alternativo para comparar. */
+  --app-canvas: #0f172a;
+  --app-surface: #1e293b;
+  --app-deep: #1e293b;
+  --app-ink: #f8fafc;
+  --app-muted: #cbd5e1;
+  --app-line: #334155;
+  --app-accent-text: #22d3ee;
+  --app-error: #fca5a5;
+  --app-warning: #fcd34d;
+  --app-grid: rgb(148 163 184 / 0.12);
+  color-scheme: dark;
 }
 
 @layer base {
@@ -17,7 +127,7 @@
   }
 
   body {
-    @apply bg-base font-sans text-slate-50 antialiased;
+    @apply bg-canvas font-sans text-ink antialiased;
   }
 
   :focus-visible {
@@ -35,32 +145,32 @@
   }
 
   .eyebrow {
-    @apply text-sm font-semibold uppercase tracking-[0.2em] text-accent;
+    @apply text-sm font-semibold uppercase tracking-[0.2em] text-accent-text;
   }
 
   .card {
-    @apply rounded-2xl border border-slate-700/70 bg-surface/70 p-6 shadow-lg shadow-black/10;
+    @apply rounded-2xl border border-line bg-surface p-6 shadow-lg shadow-slate-900/5;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-base text-slate-950 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-300 hover:shadow-lg hover:shadow-accent/25;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-slate-950 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-300 hover:shadow-lg hover:shadow-accent/25;
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-600 px-6 py-3 font-medium text-slate-200 transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-line px-6 py-3 font-medium text-ink transition duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent-text;
   }
 
   .skip-link {
-    @apply fixed left-4 top-4 z-[100] -translate-y-24 rounded-lg bg-accent px-4 py-2 font-semibold text-base transition-transform focus:translate-y-0;
+    @apply fixed left-4 top-4 z-[100] -translate-y-24 rounded-lg bg-accent px-4 py-2 font-semibold text-slate-950 transition-transform focus:translate-y-0;
   }
 }
 
 .bg-grid {
-  background-color: #0f172a;
+  background-color: var(--app-canvas);
   background-image:
-    radial-gradient(circle at 100% 0%, rgb(34 211 238 / 0.14), transparent 40%),
-    linear-gradient(#1e293b 1px, transparent 1px),
-    linear-gradient(90deg, #1e293b 1px, transparent 1px);
+    radial-gradient(circle at 100% 0%, rgb(34 211 238 / 0.12), transparent 40%),
+    linear-gradient(var(--app-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--app-grid) 1px, transparent 1px);
   background-size: auto, 40px 40px, 40px 40px;
 }
 
@@ -81,6 +191,35 @@
 
 .reveal.is-visible {
   animation: fade-up 0.7s ease-out forwards;
+}
+
+@keyframes scroll-top-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.scroll-top-bounce {
+  animation: scroll-top-bounce 2.4s ease-in-out infinite;
+}
+
+@keyframes theme-icon-in {
+  from {
+    opacity: 0;
+    transform: rotate(-45deg) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
+
+.theme-icon-in {
+  animation: theme-icon-in 0.3s ease-out;
 }
 
 @media (prefers-reduced-motion: reduce) {

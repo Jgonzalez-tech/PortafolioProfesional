@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Javier González | Freelance Frontend Developer",
-    "description": "Freelance frontend development portfolio: landing pages, React interfaces and web improvements for clients."
+    "title": "Javier González | Freelance Software Engineer",
+    "description": "Freelance software engineering portfolio: APIs, backend services, database modelling and fullstack projects."
   },
   "common": {
     "skipToContent": "Skip to content",
@@ -21,23 +21,33 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "theme": {
+    "toggle": "Change theme",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "toggle": "Change language",
+    "english": "English",
+    "spanish": "Spanish"
+  },
   "hero": {
-    "role": "Freelance Frontend Developer",
-    "headline": "Interfaces that help your project grow.",
-    "subheadline": "Tailored web design and development for clients who value clarity, speed and results. I work remotely, with clear deliverables and constant communication.",
+    "role": "Freelance Software Engineer · Backend & Data",
+    "headline": "Clean code, interfaces with purpose.",
+    "subheadline": "I design and build robust, secure and scalable services, APIs and data models. I also work with React and Angular to understand the whole system and deliver fullstack solutions that work end to end.",
     "ctaProjects": "View projects",
     "ctaContact": "Request a quote",
     "scroll": "Scroll to explore",
-    "imageAlt": "Illustration of a person working on a freelance web project"
+    "imageAlt": "Illustration of a freelance fullstack web project"
   },
   "about": {
     "eyebrow": "About",
-    "title": "I work with you, not just for you",
-    "body": "I'm Javier, a freelance frontend developer. I turn ideas into fast, accessible and easy-to-maintain interfaces. Every project starts with a conversation, a clear scope and a delivery plan.",
-    "body2": "I collaborate remotely with clients on one-off jobs or in phases: discovery, interface design, implementation and final tweaks.",
-    "skillsTitle": "Tools I use",
-    "skills": ["React", "TypeScript", "Tailwind CSS", "Vite", "Web accessibility", "Git"],
-    "quote": "Clear deliveries, deadlines met and code that stays maintainable.",
+    "title": "Solid engineering, clear communication",
+    "body": "I'm Javier González, a software engineer specialised in backend and databases. I enjoy turning complex problems into functional, well-structured solutions while working remotely with clients.",
+    "body2": "My mission is to design solid, secure and efficient backend systems with well-modelled databases. I value quality, continuous learning, responsibility, honesty, collaboration and a user-focused approach. I also work on software architecture, designing the structure of large systems so they stay maintainable and scalable.",
+    "skillsTitle": "Core stack",
+    "skills": ["Java", "Spring Boot", "Node.js", "TypeScript", "C# / .NET", "SQL", "React", "Angular", "Rust", "Tauri", "Docker", "Git"],
+    "quote": "Clear deliverables, deadlines met and systems that stay maintainable.",
     "quoteAuthor": "How I work as a freelancer",
     "imageAlt": "Illustration of a freelance workspace"
   },
@@ -47,73 +57,110 @@
     "subtitle": "Freelance services focused on concrete results.",
     "items": [
       {
-        "id": "landing",
+        "id": "backend",
         "icon": "code",
-        "title": "Landing pages",
-        "description": "Fast one-page sites designed to turn visitors into enquiries."
+        "title": "Backend & APIs",
+        "description": "REST services and APIs with Java/Spring Boot, Node.js and TypeScript: secure, scalable and ready to integrate."
       },
       {
-        "id": "interfaces",
-        "icon": "palette",
-        "title": "React interfaces",
-        "description": "React + TypeScript components and screens with consistent, accessible design."
-      },
-      {
-        "id": "improve",
+        "id": "data",
         "icon": "wrench",
-        "title": "Improvements & maintenance",
-        "description": "Performance reviews, bug fixes and progressive enhancements for existing sites."
+        "title": "Databases",
+        "description": "Relational modelling, migrations and query optimisation so the data supports the product."
+      },
+      {
+        "id": "fullstack",
+        "icon": "palette",
+        "title": "Fullstack projects",
+        "description": "From database to interface: backend/frontend coordination with React and Angular when the project needs it."
+      },
+      {
+        "id": "architecture",
+        "icon": "architecture",
+        "title": "Software architecture",
+        "description": "I design the architecture of large systems: modules, clear boundaries and technical decisions so the product can grow without losing maintainability."
       }
     ]
   },
   "projects": {
     "eyebrow": "Projects",
     "title": "Recent freelance work",
-    "subtitle": "A selection of projects delivered for clients and collaborations.",
+    "subtitle": "A selection of fullstack and backend projects delivered for clients.",
     "filters": {
       "all": "All",
-      "web": "Web",
-      "ui": "Interfaces",
-      "maintenance": "Improvements"
+      "backend": "Backend",
+      "data": "Data",
+      "fullstack": "Fullstack"
     },
     "client": "Client / type",
     "deliverable": "Deliverable",
     "technologies": "Technologies",
     "viewDetails": "View details",
+    "openDetails": "Open details for {{title}}",
+    "prev": "Previous project",
+    "next": "Next project",
+    "goTo": "Go to project {{index}}",
+    "gallery": "Project gallery",
+    "galleryPrev": "Previous image",
+    "galleryNext": "Next image",
+    "goToImage": "Go to image {{index}}",
+    "imageCounter": "Image {{current}} of {{total}}",
     "empty": "No projects in this category.",
     "items": [
       {
         "id": "p1",
-        "title": "Landing page for a creative studio",
-        "description": "A one-page site to present services and capture quote requests.",
-        "category": "web",
-        "client": "Freelance client · Creative studio",
-        "deliverable": "Responsive landing page with contact form",
-        "technologies": ["React", "TypeScript", "Tailwind CSS"],
-        "image": "projects/project-1.svg",
-        "details": "Designed and built from scratch with a mobile-first approach, subtle animations and a validated form. Delivered in one week with revisions included."
+        "title": "REST API for a client platform",
+        "description": "Backend services to manage clients, roles and permissions with clear data models.",
+        "category": "backend",
+        "client": "Freelance client · Web platform",
+        "deliverable": "REST API + documentation",
+        "technologies": ["Java", "Spring Boot", "PostgreSQL"],
+        "images": ["projects/project-1.svg", "projects/project-1-2.svg", "projects/project-1-3.svg"],
+        "details": "I designed entities, API contracts and validations. The delivery included basic tests and documentation for the client's team."
       },
       {
         "id": "p2",
-        "title": "Booking dashboard for a client",
-        "description": "An interface to manage appointments and check availability in the browser.",
-        "category": "ui",
+        "title": "Database modelling and optimisation",
+        "description": "Redesign of a relational schema and queries for a booking system.",
+        "category": "data",
         "client": "Freelance client · Local services",
-        "deliverable": "React dashboard with filters and empty states",
-        "technologies": ["React", "TypeScript", "Tailwind CSS"],
-        "image": "projects/project-2.svg",
-        "details": "I built the interface components, filtering system and loading states. The delivery included usage documentation for the client."
+        "deliverable": "Schema, migrations and recommendations",
+        "technologies": ["PostgreSQL", "SQL", "Node.js"],
+        "images": ["projects/project-2.svg", "projects/project-2-2.svg", "projects/project-2-3.svg"],
+        "details": "I normalised tables, added indexes and reviewed critical queries. The result was lower latency and a model that's easier to maintain."
       },
       {
         "id": "p3",
-        "title": "Web performance improvement",
-        "description": "Loading and accessibility optimisation for an existing site.",
-        "category": "maintenance",
-        "client": "Freelance client · Small shop",
-        "deliverable": "Audit, fixes and follow-up",
-        "technologies": ["Lighthouse", "Vite", "CSS"],
-        "image": "projects/project-3.svg",
-        "details": "Reviewed images, fonts and scripts, fixed contrast issues and left prioritised recommendations for future improvements."
+        "title": "Fullstack dashboard implementation",
+        "description": "Integration of a Node/TypeScript API with a React interface for daily operations.",
+        "category": "fullstack",
+        "client": "Freelance client · Digital business",
+        "deliverable": "API + interface + deployment",
+        "technologies": ["Node.js", "TypeScript", "React", "SQL"],
+        "images": ["projects/project-3.svg", "projects/project-3-2.svg", "projects/project-3-3.svg"],
+        "details": "I built the service, the data model and the interface. I coordinated contracts and loading states so the flow worked end to end."
+      },
+      {
+        "id": "p4",
+        "title": "Reporting service in Rust",
+        "description": "High-performance backend service for generating operational reports and metrics.",
+        "category": "backend",
+        "client": "Freelance client · Operations",
+        "deliverable": "Rust service + SQL queries",
+        "technologies": ["Rust", "SQL", "Docker"],
+        "images": ["projects/project-4.svg", "projects/project-4-2.svg", "projects/project-4-3.svg"],
+        "details": "I implemented the service in Rust, modelled the SQL queries and prepared it to run in containers. The delivery included input contracts and usage examples."
+      },
+      {
+        "id": "p5",
+        "title": "Desktop app with Tauri",
+        "description": "Cross-platform internal tool combining a React interface with Rust services.",
+        "category": "fullstack",
+        "client": "Freelance client · Internal tool",
+        "deliverable": "Tauri app + API + packaging",
+        "technologies": ["Tauri", "Rust", "React", "TypeScript"],
+        "images": ["projects/project-5.svg", "projects/project-5-2.svg", "projects/project-5-3.svg"],
+        "details": "I built the desktop window with Tauri, connected the Rust commands and left the project ready to package for Windows and macOS."
       }
     ]
   },
@@ -125,7 +172,7 @@
     "whatsappMessage": "Hi Javier, I'd like to check your availability for a freelance project.",
     "emailLabel": "Email",
     "socialTitle": "You can also find me on",
-    "cvNote": "PDF profile with services, projects and how I work."
+    "cvNote": "PDF profile with services, stack and freelance projects."
   },
   "form": {
     "title": "Request a quote",
@@ -135,7 +182,7 @@
     "emailPlaceholder": "you@email.com",
     "projectType": "Project type",
     "projectTypePlaceholder": "Select an option",
-    "projectTypes": ["Landing page", "React interface", "Improvements to existing site", "Other"],
+    "projectTypes": ["API / backend service", "Database", "Fullstack project", "Other"],
     "budget": "Approximate budget",
     "budgetPlaceholder": "Select a range",
     "budgets": ["Under $500", "$500 - $1,500", "Over $1,500", "Not defined yet"],
@@ -155,7 +202,7 @@
     }
   },
   "footer": {
-    "tagline": "Freelance frontend development · Purpose-driven web projects.",
+    "tagline": "Freelance software engineering · Backend, data and fullstack projects.",
     "rights": "All rights reserved.",
     "backToTop": "Back to top"
   },

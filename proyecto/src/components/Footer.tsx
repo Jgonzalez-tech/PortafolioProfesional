@@ -7,11 +7,11 @@ export default function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="border-t border-slate-800 bg-base">
+    <footer className="border-t border-line bg-canvas">
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-6 px-6 py-10 text-center md:flex-row md:text-left">
         <div>
           <p className="font-display font-bold">{site.name}</p>
-          <p className="mt-1 text-sm text-slate-400">{t('footer.tagline')}</p>
+          <p className="mt-1 text-sm text-muted">{t('footer.tagline')}</p>
         </div>
 
         <div className="flex items-center gap-3">
@@ -24,7 +24,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={`${t('aria.social')} ${social.label}`}
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition-colors hover:border-accent hover:text-accent"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-accent hover:text-accent-text"
               >
                 <Icon className="h-5 w-5" />
               </a>
@@ -32,7 +32,7 @@ export default function Footer() {
           })}
         </div>
 
-        <p className="text-xs text-slate-400">
+        <p className="text-xs text-muted">
           © {new Date().getFullYear()} {site.name}. {t('footer.rights')}
         </p>
       </div>

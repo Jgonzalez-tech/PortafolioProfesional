@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 import { site } from '../data/site'
 import LanguageSwitcher from './LanguageSwitcher'
+import ThemeToggle from './ThemeToggle'
 import { ArrowRightIcon, CloseIcon, MenuIcon } from './icons'
 
 const navItems = [
@@ -20,7 +21,7 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-base/85 backdrop-blur-lg">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-deep/90 backdrop-blur-lg">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-6 py-4">
         <a href="#home" className="flex items-center gap-3" onClick={closeMenu}>
           <img
@@ -28,7 +29,7 @@ export default function Header() {
             alt={t('aria.logo')}
             className="h-10 w-10"
           />
-          <span className="font-display text-lg font-bold tracking-tight">
+          <span className="font-display text-lg font-bold tracking-tight text-on-deep">
             {site.name}
           </span>
         </a>
@@ -38,7 +39,7 @@ export default function Header() {
             <a
               key={item.key}
               href={item.href}
-              className="text-sm font-medium text-slate-300 transition-colors hover:text-accent"
+              className="text-sm font-medium text-on-deep/85 transition-colors hover:text-accent"
             >
               {t(item.key)}
             </a>
@@ -47,13 +48,14 @@ export default function Header() {
 
         <div className="flex items-center gap-2 lg:gap-3">
           <LanguageSwitcher />
+          <ThemeToggle />
           <a href="#contact" className="btn-primary hidden text-sm md:inline-flex">
             {t('nav.cta')}
             <ArrowRightIcon className="h-4 w-4" />
           </a>
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-700 text-slate-200 lg:hidden"
+            className="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-white/20 text-on-deep lg:hidden"
             aria-expanded={menuOpen}
             aria-controls="mobile-navigation"
             aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
@@ -68,7 +70,7 @@ export default function Header() {
         id="mobile-navigation"
         aria-label={t('nav.home')}
         hidden={!menuOpen}
-        className="border-t border-slate-800 bg-base px-6 py-4 lg:hidden"
+        className="border-t border-white/10 bg-deep px-6 py-4 lg:hidden"
       >
         <ul className="flex flex-col gap-1">
           {navItems.map((item) => (
@@ -76,7 +78,7 @@ export default function Header() {
               <a
                 href={item.href}
                 onClick={closeMenu}
-                className="block rounded-lg px-3 py-2.5 text-sm font-medium text-slate-200 hover:bg-surface hover:text-accent"
+                className="block rounded-lg px-3 py-2.5 text-sm font-medium text-on-deep/85 hover:bg-white/10 hover:text-accent"
               >
                 {t(item.key)}
               </a>

@@ -1,5 +1,8 @@
 ENTREGA - PROYECTO PORTAFOLIO WEB FREELANCE
 
+Perfil: Javier Gonzalez Perez - Ingeniero de Software Freelance (backend, datos y fullstack)
+Slogan: Codigo limpio, interfaces con proposito.
+
 URL del portafolio publicado: TODO - pegar aquí la URL de GitHub Pages o Vercel
 Dirección del repositorio: https://github.com/Jgonzalez-tech/PortafolioProfesional.git
 
@@ -8,8 +11,10 @@ Código fuente: carpeta /proyecto
 Imagen promocional: /promo.png
 
 Notas:
-- Reemplazar los placeholders de datos en proyecto/src/data/site.ts.
+- Reemplazar los placeholders de datos en proyecto/src/data/site.ts (WhatsApp y LinkedIn).
 - Reemplazar proyecto/public/images/freelance-web.svg con la imagen web freelance del curso.
-- Reemplazar proyecto/public/cv/CV-Freelance-Javier-Gonzalez.pdf con el perfil freelance real.
+- CV freelance real: proyecto/public/cv/CV_ImagenWeb_ES.pdf y CV_ImagenWeb_EN.pdf (se descarga según el idioma seleccionado).
+- Reemplazar proyecto/public/projects/*.svg con capturas de los proyectos fullstack reales.
 - Configurar EmailJS en proyecto/.env (ver proyecto/.env.example).
+- Modo claro/oscuro disponible en el header y persistido en localStorage.
 - Generar la versión final de promo.png con IA antes de la exposición.
