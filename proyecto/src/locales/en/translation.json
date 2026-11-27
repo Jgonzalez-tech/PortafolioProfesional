@@ -108,14 +108,14 @@
     "items": [
       {
         "id": "p1",
-        "title": "REST API for a client platform",
-        "description": "Backend services to manage clients, roles and permissions with clear data models.",
-        "category": "backend",
+        "title": "AdoptMe: pet adoption web platform",
+        "description": "AdoptMe is a web platform that makes responsible pet adoption easier by connecting animals looking for a home with people who want to adopt them.",
+        "category": "fullstack",
         "client": "Freelance client · Web platform",
-        "deliverable": "REST API + documentation",
-        "technologies": ["Java", "Spring Boot", "PostgreSQL"],
+        "deliverable": "Complete web application (frontend, backend and database)",
+        "technologies": ["React", "Node.js", "TypeScript", "MySQL", "Cloudflare R2"],
         "images": ["projects/project-1-1.svg", "projects/project-1-2.svg", "projects/project-1-3.svg"],
-        "details": "I designed entities, API contracts and validations. The delivery included basic tests and documentation for the client's team."
+        "details": "Users can browse a pet catalogue with photos, filter by their preferences and submit an adoption request directly through the platform."
       },
       {
         "id": "p2",

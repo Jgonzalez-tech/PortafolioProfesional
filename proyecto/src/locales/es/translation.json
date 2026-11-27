@@ -108,14 +108,14 @@
     "items": [
       {
         "id": "p1",
-        "title": "API REST para plataforma de clientes",
-        "description": "Servicios backend para gestionar clientes, roles y permisos con modelos de datos claros.",
-        "category": "backend",
+        "title": "AdoptMe: plataforma web de adopción de mascotas",
+        "description": "AdoptMe, una plataforma web que facilita la adopción responsable de mascotas al conectar a animales en busca de hogar con personas interesadas.",
+        "category": "fullstack",
         "client": "Cliente freelance · Plataforma web",
-        "deliverable": "API REST + documentación",
-        "technologies": ["Java", "Spring Boot", "PostgreSQL"],
+        "deliverable": "Aplicación web completa (frontend, backend y base de datos)",
+        "technologies": ["React", "Node.js", "TypeScript", "MySQL", "Cloudflare R2"],
         "images": ["projects/project-1-1.svg", "projects/project-1-2.svg", "projects/project-1-3.svg"],
-        "details": "Diseñé entidades, contratos de API y validaciones. La entrega incluyó pruebas básicas y documentación para el equipo del cliente."
+        "details": "Los usuarios pueden explorar un catálogo de mascotas con fotos, filtrar según sus preferencias y enviar una solicitud de adopción directamente desde la plataforma."
       },
       {
         "id": "p2",

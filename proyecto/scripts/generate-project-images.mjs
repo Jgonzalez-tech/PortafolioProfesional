@@ -4,7 +4,7 @@ import { dirname, resolve } from 'node:path'
 const outputDir = resolve('public/projects')
 
 const projects = [
-  { id: 1, label: 'API REST / BACKEND' },
+  { id: 1, label: 'ADOPTME / FULLSTACK' },
   { id: 2, label: 'BASE DE DATOS / SQL' },
   { id: 3, label: 'PANEL FULLSTACK' },
   { id: 4, label: 'SERVICIO RUST' },
